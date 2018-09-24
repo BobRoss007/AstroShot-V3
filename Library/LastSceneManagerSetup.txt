@@ -1,0 +1,4 @@
+sceneSetups:
+- path: Assets/AstroShot/Scenes/Style Test/Style Test Outside.unity
+  isLoaded: 1
+  isActive: 1

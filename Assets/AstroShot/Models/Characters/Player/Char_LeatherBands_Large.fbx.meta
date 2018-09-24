@@ -1,0 +1,247 @@
+fileFormatVersion: 2
+guid: b9c267d3f836c5147b5311253501b982
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: armLower_left
+    100004: armLower_right
+    100006: armLowerTwist_left
+    100008: armLowerTwist_right
+    100010: armPole_left
+    100012: armPole_right
+    100014: armUpper_left
+    100016: armUpper_right
+    100018: armUpperTwist_left
+    100020: armUpperTwist_right
+    100022: bodyParent
+    100024: Char_LegBands_Large
+    100026: Char_Player_Skeleton
+    100028: chest
+    100030: clavicle_left
+    100032: clavicle_right
+    100034: eye_left
+    100036: eye_right
+    100038: eyebrowLower_left
+    100040: eyebrowLower_right
+    100042: eyebrowUpper_left
+    100044: eyebrowUpper_right
+    100046: eyelidLower_left
+    100048: eyelidLower_right
+    100050: eyelidUpper_left
+    100052: eyelidUpper_right
+    100054: foot_left
+    100056: foot_right
+    100058: footIK_left
+    100060: footIK_right
+    100062: hand_left
+    100064: hand_right
+    100066: handIK_left
+    100068: handIK_right
+    100070: head
+    100072: indexEnd_left
+    100074: indexEnd_right
+    100076: indexRoot_left
+    100078: indexRoot_right
+    100080: jaw
+    100082: legPole_left
+    100084: legPole_right
+    100086: neck
+    100088: pelvis
+    100090: pinkyEnd_left
+    100092: pinkyEnd_right
+    100094: pinkyRoot_left
+    100096: pinkyRoot_right
+    100098: ROOT
+    100100: shin_left
+    100102: shin_right
+    100104: spine
+    100106: tail1
+    100108: tail2
+    100110: tail3
+    100112: tail4
+    100114: teethLower
+    100116: teethUpper
+    100118: thigh_left
+    100120: thigh_right
+    100122: thumbEnd_left
+    100124: thumbEnd_right
+    100126: thumbRoot_left
+    100128: thumbRoot_right
+    100130: toe_left
+    100132: toe_right
+    400000: //RootNode
+    400002: armLower_left
+    400004: armLower_right
+    400006: armLowerTwist_left
+    400008: armLowerTwist_right
+    400010: armPole_left
+    400012: armPole_right
+    400014: armUpper_left
+    400016: armUpper_right
+    400018: armUpperTwist_left
+    400020: armUpperTwist_right
+    400022: bodyParent
+    400024: Char_LegBands_Large
+    400026: Char_Player_Skeleton
+    400028: chest
+    400030: clavicle_left
+    400032: clavicle_right
+    400034: eye_left
+    400036: eye_right
+    400038: eyebrowLower_left
+    400040: eyebrowLower_right
+    400042: eyebrowUpper_left
+    400044: eyebrowUpper_right
+    400046: eyelidLower_left
+    400048: eyelidLower_right
+    400050: eyelidUpper_left
+    400052: eyelidUpper_right
+    400054: foot_left
+    400056: foot_right
+    400058: footIK_left
+    400060: footIK_right
+    400062: hand_left
+    400064: hand_right
+    400066: handIK_left
+    400068: handIK_right
+    400070: head
+    400072: indexEnd_left
+    400074: indexEnd_right
+    400076: indexRoot_left
+    400078: indexRoot_right
+    400080: jaw
+    400082: legPole_left
+    400084: legPole_right
+    400086: neck
+    400088: pelvis
+    400090: pinkyEnd_left
+    400092: pinkyEnd_right
+    400094: pinkyRoot_left
+    400096: pinkyRoot_right
+    400098: ROOT
+    400100: shin_left
+    400102: shin_right
+    400104: spine
+    400106: tail1
+    400108: tail2
+    400110: tail3
+    400112: tail4
+    400114: teethLower
+    400116: teethUpper
+    400118: thigh_left
+    400120: thigh_right
+    400122: thumbEnd_left
+    400124: thumbEnd_right
+    400126: thumbRoot_left
+    400128: thumbRoot_right
+    400130: toe_left
+    400132: toe_right
+    2100000: backpack
+    2100002: metal
+    2100004: lights
+    2300000: //RootNode
+    3300000: //RootNode
+    4300000: Char_LegBands_Large
+    7400000: Char_LegBands_Large|RIG_floorMove
+    7400002: Char_LegBands_Large|TestPose
+    9500000: //RootNode
+    13700000: Char_LegBands_Large
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: backpack
+    second: {fileID: 2100000, guid: da695786539526844a24d4f6b18d8227, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: lights
+    second: {fileID: 2100004, guid: 1fc498c45986fab44b0cd0e541dd52a9, type: 3}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: metal
+    second: {fileID: 2100000, guid: eef923821ccf1cd41b21546c59e2eb02, type: 2}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 0.9999999
+    hasPreviousCalculatedGlobalScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

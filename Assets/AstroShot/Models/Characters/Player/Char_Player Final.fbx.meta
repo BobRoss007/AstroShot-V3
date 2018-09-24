@@ -1,0 +1,1900 @@
+fileFormatVersion: 2
+guid: 7c55831b1f028804ab901ca3d978133e
+timeCreated: 1507156865
+licenseType: Free
+ModelImporter:
+  serializedVersion: 22
+  fileIDToRecycleName:
+    100000: armLower_left
+    100002: armLower_right
+    100004: armLowerTwist_left
+    100006: armLowerTwist_left_end
+    100008: armLowerTwist_right
+    100010: armLowerTwist_right_end
+    100012: armPole_left
+    100014: armPole_left_end
+    100016: armPole_right
+    100018: armPole_right_end
+    100020: armUpper_left
+    100022: armUpper_right
+    100024: armUpperTwist_left
+    100026: armUpperTwist_left_end
+    100028: armUpperTwist_right
+    100030: armUpperTwist_right_end
+    100032: bodyParent
+    100034: Char_Player
+    100036: //RootNode
+    100038: Char_Player_Skeleton
+    100040: chest
+    100042: clavicle_left
+    100044: clavicle_right
+    100046: eye_left
+    100048: eye_left_end
+    100050: eye_right
+    100052: eye_right_end
+    100054: eyebrowLower_left
+    100056: eyebrowLower_left_end
+    100058: eyebrowLower_right
+    100060: eyebrowLower_right_end
+    100062: eyebrowUpper_left
+    100064: eyebrowUpper_left_end
+    100066: eyebrowUpper_right
+    100068: eyebrowUpper_right_end
+    100070: eyelidLower_left
+    100072: eyelidLower_left_end
+    100074: eyelidLower_right
+    100076: eyelidLower_right_end
+    100078: eyelidUpper_left
+    100080: eyelidUpper_left_end
+    100082: eyelidUpper_right
+    100084: eyelidUpper_right_end
+    100086: foot_left
+    100088: foot_right
+    100090: footIK_left
+    100092: footIK_left_end
+    100094: footIK_right
+    100096: footIK_right_end
+    100098: hand_left
+    100100: hand_right
+    100102: handIK_left
+    100104: handIK_left_end
+    100106: handIK_right
+    100108: handIK_right_end
+    100110: head
+    100112: indexEnd_left
+    100114: indexEnd_left_end
+    100116: indexEnd_right
+    100118: indexEnd_right_end
+    100120: indexRoot_left
+    100122: indexRoot_right
+    100124: jaw
+    100126: legPole_left
+    100128: legPole_left_end
+    100130: legPole_right
+    100132: legPole_right_end
+    100134: neck
+    100136: pelvis
+    100138: pinkyEnd_left
+    100140: pinkyEnd_left_end
+    100142: pinkyEnd_right
+    100144: pinkyEnd_right_end
+    100146: pinkyRoot_left
+    100148: pinkyRoot_right
+    100150: ROOT
+    100152: shin_left
+    100154: shin_right
+    100156: spine
+    100158: tail1
+    100160: tail2
+    100162: tail3
+    100164: tail4
+    100166: tail4_end
+    100168: teethLower
+    100170: teethLower_end
+    100172: teethUpper
+    100174: teethUpper_end
+    100176: thigh_left
+    100178: thigh_right
+    100180: thumbEnd_left
+    100182: thumbEnd_left_end
+    100184: thumbEnd_right
+    100186: thumbEnd_right_end
+    100188: thumbRoot_left
+    100190: thumbRoot_right
+    100192: toe_left
+    100194: toe_left_end
+    100196: toe_right
+    100198: toe_right_end
+    400000: armLower_left
+    400002: armLower_right
+    400004: armLowerTwist_left
+    400006: armLowerTwist_left_end
+    400008: armLowerTwist_right
+    400010: armLowerTwist_right_end
+    400012: armPole_left
+    400014: armPole_left_end
+    400016: armPole_right
+    400018: armPole_right_end
+    400020: armUpper_left
+    400022: armUpper_right
+    400024: armUpperTwist_left
+    400026: armUpperTwist_left_end
+    400028: armUpperTwist_right
+    400030: armUpperTwist_right_end
+    400032: bodyParent
+    400034: Char_Player
+    400036: //RootNode
+    400038: Char_Player_Skeleton
+    400040: chest
+    400042: clavicle_left
+    400044: clavicle_right
+    400046: eye_left
+    400048: eye_left_end
+    400050: eye_right
+    400052: eye_right_end
+    400054: eyebrowLower_left
+    400056: eyebrowLower_left_end
+    400058: eyebrowLower_right
+    400060: eyebrowLower_right_end
+    400062: eyebrowUpper_left
+    400064: eyebrowUpper_left_end
+    400066: eyebrowUpper_right
+    400068: eyebrowUpper_right_end
+    400070: eyelidLower_left
+    400072: eyelidLower_left_end
+    400074: eyelidLower_right
+    400076: eyelidLower_right_end
+    400078: eyelidUpper_left
+    400080: eyelidUpper_left_end
+    400082: eyelidUpper_right
+    400084: eyelidUpper_right_end
+    400086: foot_left
+    400088: foot_right
+    400090: footIK_left
+    400092: footIK_left_end
+    400094: footIK_right
+    400096: footIK_right_end
+    400098: hand_left
+    400100: hand_right
+    400102: handIK_left
+    400104: handIK_left_end
+    400106: handIK_right
+    400108: handIK_right_end
+    400110: head
+    400112: indexEnd_left
+    400114: indexEnd_left_end
+    400116: indexEnd_right
+    400118: indexEnd_right_end
+    400120: indexRoot_left
+    400122: indexRoot_right
+    400124: jaw
+    400126: legPole_left
+    400128: legPole_left_end
+    400130: legPole_right
+    400132: legPole_right_end
+    400134: neck
+    400136: pelvis
+    400138: pinkyEnd_left
+    400140: pinkyEnd_left_end
+    400142: pinkyEnd_right
+    400144: pinkyEnd_right_end
+    400146: pinkyRoot_left
+    400148: pinkyRoot_right
+    400150: ROOT
+    400152: shin_left
+    400154: shin_right
+    400156: spine
+    400158: tail1
+    400160: tail2
+    400162: tail3
+    400164: tail4
+    400166: tail4_end
+    400168: teethLower
+    400170: teethLower_end
+    400172: teethUpper
+    400174: teethUpper_end
+    400176: thigh_left
+    400178: thigh_right
+    400180: thumbEnd_left
+    400182: thumbEnd_left_end
+    400184: thumbEnd_right
+    400186: thumbEnd_right_end
+    400188: thumbRoot_left
+    400190: thumbRoot_right
+    400192: toe_left
+    400194: toe_left_end
+    400196: toe_right
+    400198: toe_right_end
+    4300000: Char_Player
+    7400000: Char_Player_Skeleton|IdleCrouch120
+    7400002: Char_Player_Skeleton|IdleStand120
+    7400004: Char_Player_Skeleton|Jump60
+    7400006: Char_Player_Skeleton|RIG_floorMove
+    7400008: Char_Player_Skeleton|Roll
+    7400010: Char_Player_Skeleton|RunCrouch15
+    7400012: Char_Player_Skeleton|RunStand60
+    7400014: Char_Player_Skeleton|TestPose
+    7400016: Char_Player_Skeleton|Roll60
+    9500000: //RootNode
+    13700000: Char_Player
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: body
+    second: {fileID: 2100000, guid: 7ed62e1c0a2a3b844af73041b83ab245, type: 2}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 0
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Char_Player_Skeleton|IdleStand120
+      takeName: Char_Player_Skeleton|IdleStand120
+      firstFrame: 0
+      lastFrame: 119
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 1
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Char_Player
+        weight: 1
+      - path: Char_Player_Skeleton
+        weight: 1
+      - path: Char_Player_Skeleton/ROOT
+        weight: 1
+      - path: Char_Player_Skeleton/ROOT/armPole_left
+        weight: 1
+      - path: Char_Player_Skeleton/ROOT/armPole_left/armPole_left_end
+        weight: 1
+      - path: Char_Player_Skeleton/ROOT/armPole_right
+        weight: 1
+      - path: Char_Player_Skeleton/ROOT/armPole_right/armPole_right_end
+        weight: 1
+      - path: Char_Player_Skeleton/ROOT/bodyParent
+        weight: 1
+      - path: Char_Player_Skeleton/ROOT/bodyParent/pelvis
+        weight: 1
+      - path: Char_Player_Skeleton/ROOT/bodyParent/pelvis/spine
+        weight: 1
+      - path: Char_Player_Skeleton/ROOT/bodyParent/pelvis/spine/chest
+        weight: 1
+      - path: Char_Player_Skeleton/ROOT/bodyParent/pelvis/spine/chest/clavicle_left
+        weight: 1
+      - path: Char_Player_Skeleton/ROOT/bodyParent/pelvis/spine/chest/clavicle_left/armUpper_left
+        weight: 1
+      - path: Char_Player_Skeleton/ROOT/bodyParent/pelvis/spine/chest/clavicle_left/armUpper_left/armLower_left
+        weight: 1
+      - path: Char_Player_Skeleton/ROOT/bodyParent/pelvis/spine/chest/clavicle_left/armUpper_left/armLower_left/armLowerTwist_left
+        weight: 1
+      - path: Char_Player_Skeleton/ROOT/bodyParent/pelvis/spine/chest/clavicle_left/armUpper_left/armLower_left/armLowerTwist_left/armLowerTwist_left_end
+        weight: 1
+      - path: Char_Player_Skeleton/ROOT/bodyParent/pelvis/spine/chest/clavicle_left/armUpper_left/armLower_left/hand_left
+        weight: 1
+      - path: Char_Player_Skeleton/ROOT/bodyParent/pelvis/spine/chest/clavicle_left/armUpper_left/armLower_left/hand_left/indexRoot_left
+        weight: 1
+      - path: Char_Player_Skeleton/ROOT/bodyParent/pelvis/spine/chest/clavicle_left/armUpper_left/armLower_left/hand_left/indexRoot_left/indexEnd_left
+        weight: 1
+      - path: Char_Player_Skeleton/ROOT/bodyParent/pelvis/spine/chest/clavicle_left/armUpper_left/armLower_left/hand_left/indexRoot_left/indexEnd_left/indexEnd_left_end
+        weight: 1
+      - path: Char_Player_Skeleton/ROOT/bodyParent/pelvis/spine/chest/clavicle_left/armUpper_left/armLower_left/hand_left/pinkyRoot_left
+        weight: 1
+      - path: Char_Player_Skeleton/ROOT/bodyParent/pelvis/spine/chest/clavicle_left/armUpper_left/armLower_left/hand_left/pinkyRoot_left/pinkyEnd_left
+        weight: 1
+      - path: Char_Player_Skeleton/ROOT/bodyParent/pelvis/spine/chest/clavicle_left/armUpper_left/armLower_left/hand_left/pinkyRoot_left/pinkyEnd_left/pinkyEnd_left_end
+        weight: 1
+      - path: Char_Player_Skeleton/ROOT/bodyParent/pelvis/spine/chest/clavicle_left/armUpper_left/armLower_left/hand_left/thumbRoot_left
+        weight: 1
+      - path: Char_Player_Skeleton/ROOT/bodyParent/pelvis/spine/chest/clavicle_left/armUpper_left/armLower_left/hand_left/thumbRoot_left/thumbEnd_left
+        weight: 1
+      - path: Char_Player_Skeleton/ROOT/bodyParent/pelvis/spine/chest/clavicle_left/armUpper_left/armLower_left/hand_left/thumbRoot_left/thumbEnd_left/thumbEnd_left_end
+        weight: 1
+      - path: Char_Player_Skeleton/ROOT/bodyParent/pelvis/spine/chest/clavicle_left/armUpper_left/armUpperTwist_left
+        weight: 1
+      - path: Char_Player_Skeleton/ROOT/bodyParent/pelvis/spine/chest/clavicle_left/armUpper_left/armUpperTwist_left/armUpperTwist_left_end
+        weight: 1
+      - path: Char_Player_Skeleton/ROOT/bodyParent/pelvis/spine/chest/clavicle_right
+        weight: 1
+      - path: Char_Player_Skeleton/ROOT/bodyParent/pelvis/spine/chest/clavicle_right/armUpper_right
+        weight: 1
+      - path: Char_Player_Skeleton/ROOT/bodyParent/pelvis/spine/chest/clavicle_right/armUpper_right/armLower_right
+        weight: 1
+      - path: Char_Player_Skeleton/ROOT/bodyParent/pelvis/spine/chest/clavicle_right/armUpper_right/armLower_right/armLowerTwist_right
+        weight: 1
+      - path: Char_Player_Skeleton/ROOT/bodyParent/pelvis/spine/chest/clavicle_right/armUpper_right/armLower_right/armLowerTwist_right/armLowerTwist_right_end
+        weight: 1
+      - path: Char_Player_Skeleton/ROOT/bodyParent/pelvis/spine/chest/clavicle_right/armUpper_right/armLower_right/hand_right
+        weight: 1
+      - path: Char_Player_Skeleton/ROOT/bodyParent/pelvis/spine/chest/clavicle_right/armUpper_right/armLower_right/hand_right/indexRoot_right
+        weight: 1
+      - path: Char_Player_Skeleton/ROOT/bodyParent/pelvis/spine/chest/clavicle_right/armUpper_right/armLower_right/hand_right/indexRoot_right/indexEnd_right
+        weight: 1
+      - path: Char_Player_Skeleton/ROOT/bodyParent/pelvis/spine/chest/clavicle_right/armUpper_right/armLower_right/hand_right/indexRoot_right/indexEnd_right/indexEnd_right_end
+        weight: 1
+      - path: Char_Player_Skeleton/ROOT/bodyParent/pelvis/spine/chest/clavicle_right/armUpper_right/armLower_right/hand_right/pinkyRoot_right
+        weight: 1
+      - path: Char_Player_Skeleton/ROOT/bodyParent/pelvis/spine/chest/clavicle_right/armUpper_right/armLower_right/hand_right/pinkyRoot_right/pinkyEnd_right
+        weight: 1
+      - path: Char_Player_Skeleton/ROOT/bodyParent/pelvis/spine/chest/clavicle_right/armUpper_right/armLower_right/hand_right/pinkyRoot_right/pinkyEnd_right/pinkyEnd_right_end
+        weight: 1
+      - path: Char_Player_Skeleton/ROOT/bodyParent/pelvis/spine/chest/clavicle_right/armUpper_right/armLower_right/hand_right/thumbRoot_right
+        weight: 1
+      - path: Char_Player_Skeleton/ROOT/bodyParent/pelvis/spine/chest/clavicle_right/armUpper_right/armLower_right/hand_right/thumbRoot_right/thumbEnd_right
+        weight: 1
+      - path: Char_Player_Skeleton/ROOT/bodyParent/pelvis/spine/chest/clavicle_right/armUpper_right/armLower_right/hand_right/thumbRoot_right/thumbEnd_right/thumbEnd_right_end
+        weight: 1
+      - path: Char_Player_Skeleton/ROOT/bodyParent/pelvis/spine/chest/clavicle_right/armUpper_right/armUpperTwist_right
+        weight: 1
+      - path: Char_Player_Skeleton/ROOT/bodyParent/pelvis/spine/chest/clavicle_right/armUpper_right/armUpperTwist_right/armUpperTwist_right_end
+        weight: 1
+      - path: Char_Player_Skeleton/ROOT/bodyParent/pelvis/spine/chest/neck
+        weight: 1
+      - path: Char_Player_Skeleton/ROOT/bodyParent/pelvis/spine/chest/neck/head
+        weight: 1
+      - path: Char_Player_Skeleton/ROOT/bodyParent/pelvis/spine/chest/neck/head/eye_left
+        weight: 1
+      - path: Char_Player_Skeleton/ROOT/bodyParent/pelvis/spine/chest/neck/head/eye_left/eye_left_end
+        weight: 1
+      - path: Char_Player_Skeleton/ROOT/bodyParent/pelvis/spine/chest/neck/head/eye_right
+        weight: 1
+      - path: Char_Player_Skeleton/ROOT/bodyParent/pelvis/spine/chest/neck/head/eye_right/eye_right_end
+        weight: 1
+      - path: Char_Player_Skeleton/ROOT/bodyParent/pelvis/spine/chest/neck/head/eyebrowLower_left
+        weight: 1
+      - path: Char_Player_Skeleton/ROOT/bodyParent/pelvis/spine/chest/neck/head/eyebrowLower_left/eyebrowLower_left_end
+        weight: 1
+      - path: Char_Player_Skeleton/ROOT/bodyParent/pelvis/spine/chest/neck/head/eyebrowLower_right
+        weight: 1
+      - path: Char_Player_Skeleton/ROOT/bodyParent/pelvis/spine/chest/neck/head/eyebrowLower_right/eyebrowLower_right_end
+        weight: 1
+      - path: Char_Player_Skeleton/ROOT/bodyParent/pelvis/spine/chest/neck/head/eyebrowUpper_left
+        weight: 1
+      - path: Char_Player_Skeleton/ROOT/bodyParent/pelvis/spine/chest/neck/head/eyebrowUpper_left/eyebrowUpper_left_end
+        weight: 1
+      - path: Char_Player_Skeleton/ROOT/bodyParent/pelvis/spine/chest/neck/head/eyebrowUpper_right
+        weight: 1
+      - path: Char_Player_Skeleton/ROOT/bodyParent/pelvis/spine/chest/neck/head/eyebrowUpper_right/eyebrowUpper_right_end
+        weight: 1
+      - path: Char_Player_Skeleton/ROOT/bodyParent/pelvis/spine/chest/neck/head/eyelidLower_left
+        weight: 1
+      - path: Char_Player_Skeleton/ROOT/bodyParent/pelvis/spine/chest/neck/head/eyelidLower_left/eyelidLower_left_end
+        weight: 1
+      - path: Char_Player_Skeleton/ROOT/bodyParent/pelvis/spine/chest/neck/head/eyelidLower_right
+        weight: 1
+      - path: Char_Player_Skeleton/ROOT/bodyParent/pelvis/spine/chest/neck/head/eyelidLower_right/eyelidLower_right_end
+        weight: 1
+      - path: Char_Player_Skeleton/ROOT/bodyParent/pelvis/spine/chest/neck/head/eyelidUpper_left
+        weight: 1
+      - path: Char_Player_Skeleton/ROOT/bodyParent/pelvis/spine/chest/neck/head/eyelidUpper_left/eyelidUpper_left_end
+        weight: 1
+      - path: Char_Player_Skeleton/ROOT/bodyParent/pelvis/spine/chest/neck/head/eyelidUpper_right
+        weight: 1
+      - path: Char_Player_Skeleton/ROOT/bodyParent/pelvis/spine/chest/neck/head/eyelidUpper_right/eyelidUpper_right_end
+        weight: 1
+      - path: Char_Player_Skeleton/ROOT/bodyParent/pelvis/spine/chest/neck/head/jaw
+        weight: 1
+      - path: Char_Player_Skeleton/ROOT/bodyParent/pelvis/spine/chest/neck/head/jaw/teethLower
+        weight: 1
+      - path: Char_Player_Skeleton/ROOT/bodyParent/pelvis/spine/chest/neck/head/jaw/teethLower/teethLower_end
+        weight: 1
+      - path: Char_Player_Skeleton/ROOT/bodyParent/pelvis/spine/chest/neck/head/teethUpper
+        weight: 1
+      - path: Char_Player_Skeleton/ROOT/bodyParent/pelvis/spine/chest/neck/head/teethUpper/teethUpper_end
+        weight: 1
+      - path: Char_Player_Skeleton/ROOT/bodyParent/pelvis/tail1
+        weight: 1
+      - path: Char_Player_Skeleton/ROOT/bodyParent/pelvis/tail1/tail2
+        weight: 1
+      - path: Char_Player_Skeleton/ROOT/bodyParent/pelvis/tail1/tail2/tail3
+        weight: 1
+      - path: Char_Player_Skeleton/ROOT/bodyParent/pelvis/tail1/tail2/tail3/tail4
+        weight: 1
+      - path: Char_Player_Skeleton/ROOT/bodyParent/pelvis/tail1/tail2/tail3/tail4/tail4_end
+        weight: 1
+      - path: Char_Player_Skeleton/ROOT/bodyParent/pelvis/thigh_left
+        weight: 1
+      - path: Char_Player_Skeleton/ROOT/bodyParent/pelvis/thigh_left/shin_left
+        weight: 1
+      - path: Char_Player_Skeleton/ROOT/bodyParent/pelvis/thigh_left/shin_left/foot_left
+        weight: 1
+      - path: Char_Player_Skeleton/ROOT/bodyParent/pelvis/thigh_left/shin_left/foot_left/toe_left
+        weight: 1
+      - path: Char_Player_Skeleton/ROOT/bodyParent/pelvis/thigh_left/shin_left/foot_left/toe_left/toe_left_end
+        weight: 1
+      - path: Char_Player_Skeleton/ROOT/bodyParent/pelvis/thigh_right
+        weight: 1
+      - path: Char_Player_Skeleton/ROOT/bodyParent/pelvis/thigh_right/shin_right
+        weight: 1
+      - path: Char_Player_Skeleton/ROOT/bodyParent/pelvis/thigh_right/shin_right/foot_right
+        weight: 1
+      - path: Char_Player_Skeleton/ROOT/bodyParent/pelvis/thigh_right/shin_right/foot_right/toe_right
+        weight: 1
+      - path: Char_Player_Skeleton/ROOT/bodyParent/pelvis/thigh_right/shin_right/foot_right/toe_right/toe_right_end
+        weight: 1
+      - path: Char_Player_Skeleton/ROOT/footIK_left
+        weight: 1
+      - path: Char_Player_Skeleton/ROOT/footIK_left/footIK_left_end
+        weight: 1
+      - path: Char_Player_Skeleton/ROOT/footIK_right
+        weight: 1
+      - path: Char_Player_Skeleton/ROOT/footIK_right/footIK_right_end
+        weight: 1
+      - path: Char_Player_Skeleton/ROOT/handIK_left
+        weight: 1
+      - path: Char_Player_Skeleton/ROOT/handIK_left/handIK_left_end
+        weight: 1
+      - path: Char_Player_Skeleton/ROOT/handIK_right
+        weight: 1
+      - path: Char_Player_Skeleton/ROOT/handIK_right/handIK_right_end
+        weight: 1
+      - path: Char_Player_Skeleton/ROOT/legPole_left
+        weight: 1
+      - path: Char_Player_Skeleton/ROOT/legPole_left/legPole_left_end
+        weight: 1
+      - path: Char_Player_Skeleton/ROOT/legPole_right
+        weight: 1
+      - path: Char_Player_Skeleton/ROOT/legPole_right/legPole_right_end
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Char_Player_Skeleton|IdleCrouch120
+      takeName: Char_Player_Skeleton|IdleCrouch120
+      firstFrame: 0
+      lastFrame: 119
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 1
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Char_Player
+        weight: 1
+      - path: Char_Player_Skeleton
+        weight: 1
+      - path: Char_Player_Skeleton/ROOT
+        weight: 1
+      - path: Char_Player_Skeleton/ROOT/armPole_left
+        weight: 1
+      - path: Char_Player_Skeleton/ROOT/armPole_left/armPole_left_end
+        weight: 1
+      - path: Char_Player_Skeleton/ROOT/armPole_right
+        weight: 1
+      - path: Char_Player_Skeleton/ROOT/armPole_right/armPole_right_end
+        weight: 1
+      - path: Char_Player_Skeleton/ROOT/bodyParent
+        weight: 1
+      - path: Char_Player_Skeleton/ROOT/bodyParent/pelvis
+        weight: 1
+      - path: Char_Player_Skeleton/ROOT/bodyParent/pelvis/spine
+        weight: 1
+      - path: Char_Player_Skeleton/ROOT/bodyParent/pelvis/spine/chest
+        weight: 1
+      - path: Char_Player_Skeleton/ROOT/bodyParent/pelvis/spine/chest/clavicle_left
+        weight: 1
+      - path: Char_Player_Skeleton/ROOT/bodyParent/pelvis/spine/chest/clavicle_left/armUpper_left
+        weight: 1
+      - path: Char_Player_Skeleton/ROOT/bodyParent/pelvis/spine/chest/clavicle_left/armUpper_left/armLower_left
+        weight: 1
+      - path: Char_Player_Skeleton/ROOT/bodyParent/pelvis/spine/chest/clavicle_left/armUpper_left/armLower_left/armLowerTwist_left
+        weight: 1
+      - path: Char_Player_Skeleton/ROOT/bodyParent/pelvis/spine/chest/clavicle_left/armUpper_left/armLower_left/armLowerTwist_left/armLowerTwist_left_end
+        weight: 1
+      - path: Char_Player_Skeleton/ROOT/bodyParent/pelvis/spine/chest/clavicle_left/armUpper_left/armLower_left/hand_left
+        weight: 1
+      - path: Char_Player_Skeleton/ROOT/bodyParent/pelvis/spine/chest/clavicle_left/armUpper_left/armLower_left/hand_left/indexRoot_left
+        weight: 1
+      - path: Char_Player_Skeleton/ROOT/bodyParent/pelvis/spine/chest/clavicle_left/armUpper_left/armLower_left/hand_left/indexRoot_left/indexEnd_left
+        weight: 1
+      - path: Char_Player_Skeleton/ROOT/bodyParent/pelvis/spine/chest/clavicle_left/armUpper_left/armLower_left/hand_left/indexRoot_left/indexEnd_left/indexEnd_left_end
+        weight: 1
+      - path: Char_Player_Skeleton/ROOT/bodyParent/pelvis/spine/chest/clavicle_left/armUpper_left/armLower_left/hand_left/pinkyRoot_left
+        weight: 1
+      - path: Char_Player_Skeleton/ROOT/bodyParent/pelvis/spine/chest/clavicle_left/armUpper_left/armLower_left/hand_left/pinkyRoot_left/pinkyEnd_left
+        weight: 1
+      - path: Char_Player_Skeleton/ROOT/bodyParent/pelvis/spine/chest/clavicle_left/armUpper_left/armLower_left/hand_left/pinkyRoot_left/pinkyEnd_left/pinkyEnd_left_end
+        weight: 1
+      - path: Char_Player_Skeleton/ROOT/bodyParent/pelvis/spine/chest/clavicle_left/armUpper_left/armLower_left/hand_left/thumbRoot_left
+        weight: 1
+      - path: Char_Player_Skeleton/ROOT/bodyParent/pelvis/spine/chest/clavicle_left/armUpper_left/armLower_left/hand_left/thumbRoot_left/thumbEnd_left
+        weight: 1
+      - path: Char_Player_Skeleton/ROOT/bodyParent/pelvis/spine/chest/clavicle_left/armUpper_left/armLower_left/hand_left/thumbRoot_left/thumbEnd_left/thumbEnd_left_end
+        weight: 1
+      - path: Char_Player_Skeleton/ROOT/bodyParent/pelvis/spine/chest/clavicle_left/armUpper_left/armUpperTwist_left
+        weight: 1
+      - path: Char_Player_Skeleton/ROOT/bodyParent/pelvis/spine/chest/clavicle_left/armUpper_left/armUpperTwist_left/armUpperTwist_left_end
+        weight: 1
+      - path: Char_Player_Skeleton/ROOT/bodyParent/pelvis/spine/chest/clavicle_right
+        weight: 1
+      - path: Char_Player_Skeleton/ROOT/bodyParent/pelvis/spine/chest/clavicle_right/armUpper_right
+        weight: 1
+      - path: Char_Player_Skeleton/ROOT/bodyParent/pelvis/spine/chest/clavicle_right/armUpper_right/armLower_right
+        weight: 1
+      - path: Char_Player_Skeleton/ROOT/bodyParent/pelvis/spine/chest/clavicle_right/armUpper_right/armLower_right/armLowerTwist_right
+        weight: 1
+      - path: Char_Player_Skeleton/ROOT/bodyParent/pelvis/spine/chest/clavicle_right/armUpper_right/armLower_right/armLowerTwist_right/armLowerTwist_right_end
+        weight: 1
+      - path: Char_Player_Skeleton/ROOT/bodyParent/pelvis/spine/chest/clavicle_right/armUpper_right/armLower_right/hand_right
+        weight: 1
+      - path: Char_Player_Skeleton/ROOT/bodyParent/pelvis/spine/chest/clavicle_right/armUpper_right/armLower_right/hand_right/indexRoot_right
+        weight: 1
+      - path: Char_Player_Skeleton/ROOT/bodyParent/pelvis/spine/chest/clavicle_right/armUpper_right/armLower_right/hand_right/indexRoot_right/indexEnd_right
+        weight: 1
+      - path: Char_Player_Skeleton/ROOT/bodyParent/pelvis/spine/chest/clavicle_right/armUpper_right/armLower_right/hand_right/indexRoot_right/indexEnd_right/indexEnd_right_end
+        weight: 1
+      - path: Char_Player_Skeleton/ROOT/bodyParent/pelvis/spine/chest/clavicle_right/armUpper_right/armLower_right/hand_right/pinkyRoot_right
+        weight: 1
+      - path: Char_Player_Skeleton/ROOT/bodyParent/pelvis/spine/chest/clavicle_right/armUpper_right/armLower_right/hand_right/pinkyRoot_right/pinkyEnd_right
+        weight: 1
+      - path: Char_Player_Skeleton/ROOT/bodyParent/pelvis/spine/chest/clavicle_right/armUpper_right/armLower_right/hand_right/pinkyRoot_right/pinkyEnd_right/pinkyEnd_right_end
+        weight: 1
+      - path: Char_Player_Skeleton/ROOT/bodyParent/pelvis/spine/chest/clavicle_right/armUpper_right/armLower_right/hand_right/thumbRoot_right
+        weight: 1
+      - path: Char_Player_Skeleton/ROOT/bodyParent/pelvis/spine/chest/clavicle_right/armUpper_right/armLower_right/hand_right/thumbRoot_right/thumbEnd_right
+        weight: 1
+      - path: Char_Player_Skeleton/ROOT/bodyParent/pelvis/spine/chest/clavicle_right/armUpper_right/armLower_right/hand_right/thumbRoot_right/thumbEnd_right/thumbEnd_right_end
+        weight: 1
+      - path: Char_Player_Skeleton/ROOT/bodyParent/pelvis/spine/chest/clavicle_right/armUpper_right/armUpperTwist_right
+        weight: 1
+      - path: Char_Player_Skeleton/ROOT/bodyParent/pelvis/spine/chest/clavicle_right/armUpper_right/armUpperTwist_right/armUpperTwist_right_end
+        weight: 1
+      - path: Char_Player_Skeleton/ROOT/bodyParent/pelvis/spine/chest/neck
+        weight: 1
+      - path: Char_Player_Skeleton/ROOT/bodyParent/pelvis/spine/chest/neck/head
+        weight: 1
+      - path: Char_Player_Skeleton/ROOT/bodyParent/pelvis/spine/chest/neck/head/eye_left
+        weight: 1
+      - path: Char_Player_Skeleton/ROOT/bodyParent/pelvis/spine/chest/neck/head/eye_left/eye_left_end
+        weight: 1
+      - path: Char_Player_Skeleton/ROOT/bodyParent/pelvis/spine/chest/neck/head/eye_right
+        weight: 1
+      - path: Char_Player_Skeleton/ROOT/bodyParent/pelvis/spine/chest/neck/head/eye_right/eye_right_end
+        weight: 1
+      - path: Char_Player_Skeleton/ROOT/bodyParent/pelvis/spine/chest/neck/head/eyebrowLower_left
+        weight: 1
+      - path: Char_Player_Skeleton/ROOT/bodyParent/pelvis/spine/chest/neck/head/eyebrowLower_left/eyebrowLower_left_end
+        weight: 1
+      - path: Char_Player_Skeleton/ROOT/bodyParent/pelvis/spine/chest/neck/head/eyebrowLower_right
+        weight: 1
+      - path: Char_Player_Skeleton/ROOT/bodyParent/pelvis/spine/chest/neck/head/eyebrowLower_right/eyebrowLower_right_end
+        weight: 1
+      - path: Char_Player_Skeleton/ROOT/bodyParent/pelvis/spine/chest/neck/head/eyebrowUpper_left
+        weight: 1
+      - path: Char_Player_Skeleton/ROOT/bodyParent/pelvis/spine/chest/neck/head/eyebrowUpper_left/eyebrowUpper_left_end
+        weight: 1
+      - path: Char_Player_Skeleton/ROOT/bodyParent/pelvis/spine/chest/neck/head/eyebrowUpper_right
+        weight: 1
+      - path: Char_Player_Skeleton/ROOT/bodyParent/pelvis/spine/chest/neck/head/eyebrowUpper_right/eyebrowUpper_right_end
+        weight: 1
+      - path: Char_Player_Skeleton/ROOT/bodyParent/pelvis/spine/chest/neck/head/eyelidLower_left
+        weight: 1
+      - path: Char_Player_Skeleton/ROOT/bodyParent/pelvis/spine/chest/neck/head/eyelidLower_left/eyelidLower_left_end
+        weight: 1
+      - path: Char_Player_Skeleton/ROOT/bodyParent/pelvis/spine/chest/neck/head/eyelidLower_right
+        weight: 1
+      - path: Char_Player_Skeleton/ROOT/bodyParent/pelvis/spine/chest/neck/head/eyelidLower_right/eyelidLower_right_end
+        weight: 1
+      - path: Char_Player_Skeleton/ROOT/bodyParent/pelvis/spine/chest/neck/head/eyelidUpper_left
+        weight: 1
+      - path: Char_Player_Skeleton/ROOT/bodyParent/pelvis/spine/chest/neck/head/eyelidUpper_left/eyelidUpper_left_end
+        weight: 1
+      - path: Char_Player_Skeleton/ROOT/bodyParent/pelvis/spine/chest/neck/head/eyelidUpper_right
+        weight: 1
+      - path: Char_Player_Skeleton/ROOT/bodyParent/pelvis/spine/chest/neck/head/eyelidUpper_right/eyelidUpper_right_end
+        weight: 1
+      - path: Char_Player_Skeleton/ROOT/bodyParent/pelvis/spine/chest/neck/head/jaw
+        weight: 1
+      - path: Char_Player_Skeleton/ROOT/bodyParent/pelvis/spine/chest/neck/head/jaw/teethLower
+        weight: 1
+      - path: Char_Player_Skeleton/ROOT/bodyParent/pelvis/spine/chest/neck/head/jaw/teethLower/teethLower_end
+        weight: 1
+      - path: Char_Player_Skeleton/ROOT/bodyParent/pelvis/spine/chest/neck/head/teethUpper
+        weight: 1
+      - path: Char_Player_Skeleton/ROOT/bodyParent/pelvis/spine/chest/neck/head/teethUpper/teethUpper_end
+        weight: 1
+      - path: Char_Player_Skeleton/ROOT/bodyParent/pelvis/tail1
+        weight: 1
+      - path: Char_Player_Skeleton/ROOT/bodyParent/pelvis/tail1/tail2
+        weight: 1
+      - path: Char_Player_Skeleton/ROOT/bodyParent/pelvis/tail1/tail2/tail3
+        weight: 1
+      - path: Char_Player_Skeleton/ROOT/bodyParent/pelvis/tail1/tail2/tail3/tail4
+        weight: 1
+      - path: Char_Player_Skeleton/ROOT/bodyParent/pelvis/tail1/tail2/tail3/tail4/tail4_end
+        weight: 1
+      - path: Char_Player_Skeleton/ROOT/bodyParent/pelvis/thigh_left
+        weight: 1
+      - path: Char_Player_Skeleton/ROOT/bodyParent/pelvis/thigh_left/shin_left
+        weight: 1
+      - path: Char_Player_Skeleton/ROOT/bodyParent/pelvis/thigh_left/shin_left/foot_left
+        weight: 1
+      - path: Char_Player_Skeleton/ROOT/bodyParent/pelvis/thigh_left/shin_left/foot_left/toe_left
+        weight: 1
+      - path: Char_Player_Skeleton/ROOT/bodyParent/pelvis/thigh_left/shin_left/foot_left/toe_left/toe_left_end
+        weight: 1
+      - path: Char_Player_Skeleton/ROOT/bodyParent/pelvis/thigh_right
+        weight: 1
+      - path: Char_Player_Skeleton/ROOT/bodyParent/pelvis/thigh_right/shin_right
+        weight: 1
+      - path: Char_Player_Skeleton/ROOT/bodyParent/pelvis/thigh_right/shin_right/foot_right
+        weight: 1
+      - path: Char_Player_Skeleton/ROOT/bodyParent/pelvis/thigh_right/shin_right/foot_right/toe_right
+        weight: 1
+      - path: Char_Player_Skeleton/ROOT/bodyParent/pelvis/thigh_right/shin_right/foot_right/toe_right/toe_right_end
+        weight: 1
+      - path: Char_Player_Skeleton/ROOT/footIK_left
+        weight: 1
+      - path: Char_Player_Skeleton/ROOT/footIK_left/footIK_left_end
+        weight: 1
+      - path: Char_Player_Skeleton/ROOT/footIK_right
+        weight: 1
+      - path: Char_Player_Skeleton/ROOT/footIK_right/footIK_right_end
+        weight: 1
+      - path: Char_Player_Skeleton/ROOT/handIK_left
+        weight: 1
+      - path: Char_Player_Skeleton/ROOT/handIK_left/handIK_left_end
+        weight: 1
+      - path: Char_Player_Skeleton/ROOT/handIK_right
+        weight: 1
+      - path: Char_Player_Skeleton/ROOT/handIK_right/handIK_right_end
+        weight: 1
+      - path: Char_Player_Skeleton/ROOT/legPole_left
+        weight: 1
+      - path: Char_Player_Skeleton/ROOT/legPole_left/legPole_left_end
+        weight: 1
+      - path: Char_Player_Skeleton/ROOT/legPole_right
+        weight: 1
+      - path: Char_Player_Skeleton/ROOT/legPole_right/legPole_right_end
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Char_Player_Skeleton|Jump60
+      takeName: Char_Player_Skeleton|Jump60
+      firstFrame: 0
+      lastFrame: 59
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 1
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Char_Player
+        weight: 1
+      - path: Char_Player_Skeleton
+        weight: 1
+      - path: Char_Player_Skeleton/ROOT
+        weight: 1
+      - path: Char_Player_Skeleton/ROOT/armPole_left
+        weight: 1
+      - path: Char_Player_Skeleton/ROOT/armPole_left/armPole_left_end
+        weight: 1
+      - path: Char_Player_Skeleton/ROOT/armPole_right
+        weight: 1
+      - path: Char_Player_Skeleton/ROOT/armPole_right/armPole_right_end
+        weight: 1
+      - path: Char_Player_Skeleton/ROOT/bodyParent
+        weight: 1
+      - path: Char_Player_Skeleton/ROOT/bodyParent/pelvis
+        weight: 1
+      - path: Char_Player_Skeleton/ROOT/bodyParent/pelvis/spine
+        weight: 1
+      - path: Char_Player_Skeleton/ROOT/bodyParent/pelvis/spine/chest
+        weight: 1
+      - path: Char_Player_Skeleton/ROOT/bodyParent/pelvis/spine/chest/clavicle_left
+        weight: 1
+      - path: Char_Player_Skeleton/ROOT/bodyParent/pelvis/spine/chest/clavicle_left/armUpper_left
+        weight: 1
+      - path: Char_Player_Skeleton/ROOT/bodyParent/pelvis/spine/chest/clavicle_left/armUpper_left/armLower_left
+        weight: 1
+      - path: Char_Player_Skeleton/ROOT/bodyParent/pelvis/spine/chest/clavicle_left/armUpper_left/armLower_left/armLowerTwist_left
+        weight: 1
+      - path: Char_Player_Skeleton/ROOT/bodyParent/pelvis/spine/chest/clavicle_left/armUpper_left/armLower_left/armLowerTwist_left/armLowerTwist_left_end
+        weight: 1
+      - path: Char_Player_Skeleton/ROOT/bodyParent/pelvis/spine/chest/clavicle_left/armUpper_left/armLower_left/hand_left
+        weight: 1
+      - path: Char_Player_Skeleton/ROOT/bodyParent/pelvis/spine/chest/clavicle_left/armUpper_left/armLower_left/hand_left/indexRoot_left
+        weight: 1
+      - path: Char_Player_Skeleton/ROOT/bodyParent/pelvis/spine/chest/clavicle_left/armUpper_left/armLower_left/hand_left/indexRoot_left/indexEnd_left
+        weight: 1
+      - path: Char_Player_Skeleton/ROOT/bodyParent/pelvis/spine/chest/clavicle_left/armUpper_left/armLower_left/hand_left/indexRoot_left/indexEnd_left/indexEnd_left_end
+        weight: 1
+      - path: Char_Player_Skeleton/ROOT/bodyParent/pelvis/spine/chest/clavicle_left/armUpper_left/armLower_left/hand_left/pinkyRoot_left
+        weight: 1
+      - path: Char_Player_Skeleton/ROOT/bodyParent/pelvis/spine/chest/clavicle_left/armUpper_left/armLower_left/hand_left/pinkyRoot_left/pinkyEnd_left
+        weight: 1
+      - path: Char_Player_Skeleton/ROOT/bodyParent/pelvis/spine/chest/clavicle_left/armUpper_left/armLower_left/hand_left/pinkyRoot_left/pinkyEnd_left/pinkyEnd_left_end
+        weight: 1
+      - path: Char_Player_Skeleton/ROOT/bodyParent/pelvis/spine/chest/clavicle_left/armUpper_left/armLower_left/hand_left/thumbRoot_left
+        weight: 1
+      - path: Char_Player_Skeleton/ROOT/bodyParent/pelvis/spine/chest/clavicle_left/armUpper_left/armLower_left/hand_left/thumbRoot_left/thumbEnd_left
+        weight: 1
+      - path: Char_Player_Skeleton/ROOT/bodyParent/pelvis/spine/chest/clavicle_left/armUpper_left/armLower_left/hand_left/thumbRoot_left/thumbEnd_left/thumbEnd_left_end
+        weight: 1
+      - path: Char_Player_Skeleton/ROOT/bodyParent/pelvis/spine/chest/clavicle_left/armUpper_left/armUpperTwist_left
+        weight: 1
+      - path: Char_Player_Skeleton/ROOT/bodyParent/pelvis/spine/chest/clavicle_left/armUpper_left/armUpperTwist_left/armUpperTwist_left_end
+        weight: 1
+      - path: Char_Player_Skeleton/ROOT/bodyParent/pelvis/spine/chest/clavicle_right
+        weight: 1
+      - path: Char_Player_Skeleton/ROOT/bodyParent/pelvis/spine/chest/clavicle_right/armUpper_right
+        weight: 1
+      - path: Char_Player_Skeleton/ROOT/bodyParent/pelvis/spine/chest/clavicle_right/armUpper_right/armLower_right
+        weight: 1
+      - path: Char_Player_Skeleton/ROOT/bodyParent/pelvis/spine/chest/clavicle_right/armUpper_right/armLower_right/armLowerTwist_right
+        weight: 1
+      - path: Char_Player_Skeleton/ROOT/bodyParent/pelvis/spine/chest/clavicle_right/armUpper_right/armLower_right/armLowerTwist_right/armLowerTwist_right_end
+        weight: 1
+      - path: Char_Player_Skeleton/ROOT/bodyParent/pelvis/spine/chest/clavicle_right/armUpper_right/armLower_right/hand_right
+        weight: 1
+      - path: Char_Player_Skeleton/ROOT/bodyParent/pelvis/spine/chest/clavicle_right/armUpper_right/armLower_right/hand_right/indexRoot_right
+        weight: 1
+      - path: Char_Player_Skeleton/ROOT/bodyParent/pelvis/spine/chest/clavicle_right/armUpper_right/armLower_right/hand_right/indexRoot_right/indexEnd_right
+        weight: 1
+      - path: Char_Player_Skeleton/ROOT/bodyParent/pelvis/spine/chest/clavicle_right/armUpper_right/armLower_right/hand_right/indexRoot_right/indexEnd_right/indexEnd_right_end
+        weight: 1
+      - path: Char_Player_Skeleton/ROOT/bodyParent/pelvis/spine/chest/clavicle_right/armUpper_right/armLower_right/hand_right/pinkyRoot_right
+        weight: 1
+      - path: Char_Player_Skeleton/ROOT/bodyParent/pelvis/spine/chest/clavicle_right/armUpper_right/armLower_right/hand_right/pinkyRoot_right/pinkyEnd_right
+        weight: 1
+      - path: Char_Player_Skeleton/ROOT/bodyParent/pelvis/spine/chest/clavicle_right/armUpper_right/armLower_right/hand_right/pinkyRoot_right/pinkyEnd_right/pinkyEnd_right_end
+        weight: 1
+      - path: Char_Player_Skeleton/ROOT/bodyParent/pelvis/spine/chest/clavicle_right/armUpper_right/armLower_right/hand_right/thumbRoot_right
+        weight: 1
+      - path: Char_Player_Skeleton/ROOT/bodyParent/pelvis/spine/chest/clavicle_right/armUpper_right/armLower_right/hand_right/thumbRoot_right/thumbEnd_right
+        weight: 1
+      - path: Char_Player_Skeleton/ROOT/bodyParent/pelvis/spine/chest/clavicle_right/armUpper_right/armLower_right/hand_right/thumbRoot_right/thumbEnd_right/thumbEnd_right_end
+        weight: 1
+      - path: Char_Player_Skeleton/ROOT/bodyParent/pelvis/spine/chest/clavicle_right/armUpper_right/armUpperTwist_right
+        weight: 1
+      - path: Char_Player_Skeleton/ROOT/bodyParent/pelvis/spine/chest/clavicle_right/armUpper_right/armUpperTwist_right/armUpperTwist_right_end
+        weight: 1
+      - path: Char_Player_Skeleton/ROOT/bodyParent/pelvis/spine/chest/neck
+        weight: 1
+      - path: Char_Player_Skeleton/ROOT/bodyParent/pelvis/spine/chest/neck/head
+        weight: 1
+      - path: Char_Player_Skeleton/ROOT/bodyParent/pelvis/spine/chest/neck/head/eye_left
+        weight: 1
+      - path: Char_Player_Skeleton/ROOT/bodyParent/pelvis/spine/chest/neck/head/eye_left/eye_left_end
+        weight: 1
+      - path: Char_Player_Skeleton/ROOT/bodyParent/pelvis/spine/chest/neck/head/eye_right
+        weight: 1
+      - path: Char_Player_Skeleton/ROOT/bodyParent/pelvis/spine/chest/neck/head/eye_right/eye_right_end
+        weight: 1
+      - path: Char_Player_Skeleton/ROOT/bodyParent/pelvis/spine/chest/neck/head/eyebrowLower_left
+        weight: 1
+      - path: Char_Player_Skeleton/ROOT/bodyParent/pelvis/spine/chest/neck/head/eyebrowLower_left/eyebrowLower_left_end
+        weight: 1
+      - path: Char_Player_Skeleton/ROOT/bodyParent/pelvis/spine/chest/neck/head/eyebrowLower_right
+        weight: 1
+      - path: Char_Player_Skeleton/ROOT/bodyParent/pelvis/spine/chest/neck/head/eyebrowLower_right/eyebrowLower_right_end
+        weight: 1
+      - path: Char_Player_Skeleton/ROOT/bodyParent/pelvis/spine/chest/neck/head/eyebrowUpper_left
+        weight: 1
+      - path: Char_Player_Skeleton/ROOT/bodyParent/pelvis/spine/chest/neck/head/eyebrowUpper_left/eyebrowUpper_left_end
+        weight: 1
+      - path: Char_Player_Skeleton/ROOT/bodyParent/pelvis/spine/chest/neck/head/eyebrowUpper_right
+        weight: 1
+      - path: Char_Player_Skeleton/ROOT/bodyParent/pelvis/spine/chest/neck/head/eyebrowUpper_right/eyebrowUpper_right_end
+        weight: 1
+      - path: Char_Player_Skeleton/ROOT/bodyParent/pelvis/spine/chest/neck/head/eyelidLower_left
+        weight: 1
+      - path: Char_Player_Skeleton/ROOT/bodyParent/pelvis/spine/chest/neck/head/eyelidLower_left/eyelidLower_left_end
+        weight: 1
+      - path: Char_Player_Skeleton/ROOT/bodyParent/pelvis/spine/chest/neck/head/eyelidLower_right
+        weight: 1
+      - path: Char_Player_Skeleton/ROOT/bodyParent/pelvis/spine/chest/neck/head/eyelidLower_right/eyelidLower_right_end
+        weight: 1
+      - path: Char_Player_Skeleton/ROOT/bodyParent/pelvis/spine/chest/neck/head/eyelidUpper_left
+        weight: 1
+      - path: Char_Player_Skeleton/ROOT/bodyParent/pelvis/spine/chest/neck/head/eyelidUpper_left/eyelidUpper_left_end
+        weight: 1
+      - path: Char_Player_Skeleton/ROOT/bodyParent/pelvis/spine/chest/neck/head/eyelidUpper_right
+        weight: 1
+      - path: Char_Player_Skeleton/ROOT/bodyParent/pelvis/spine/chest/neck/head/eyelidUpper_right/eyelidUpper_right_end
+        weight: 1
+      - path: Char_Player_Skeleton/ROOT/bodyParent/pelvis/spine/chest/neck/head/jaw
+        weight: 1
+      - path: Char_Player_Skeleton/ROOT/bodyParent/pelvis/spine/chest/neck/head/jaw/teethLower
+        weight: 1
+      - path: Char_Player_Skeleton/ROOT/bodyParent/pelvis/spine/chest/neck/head/jaw/teethLower/teethLower_end
+        weight: 1
+      - path: Char_Player_Skeleton/ROOT/bodyParent/pelvis/spine/chest/neck/head/teethUpper
+        weight: 1
+      - path: Char_Player_Skeleton/ROOT/bodyParent/pelvis/spine/chest/neck/head/teethUpper/teethUpper_end
+        weight: 1
+      - path: Char_Player_Skeleton/ROOT/bodyParent/pelvis/tail1
+        weight: 1
+      - path: Char_Player_Skeleton/ROOT/bodyParent/pelvis/tail1/tail2
+        weight: 1
+      - path: Char_Player_Skeleton/ROOT/bodyParent/pelvis/tail1/tail2/tail3
+        weight: 1
+      - path: Char_Player_Skeleton/ROOT/bodyParent/pelvis/tail1/tail2/tail3/tail4
+        weight: 1
+      - path: Char_Player_Skeleton/ROOT/bodyParent/pelvis/tail1/tail2/tail3/tail4/tail4_end
+        weight: 1
+      - path: Char_Player_Skeleton/ROOT/bodyParent/pelvis/thigh_left
+        weight: 1
+      - path: Char_Player_Skeleton/ROOT/bodyParent/pelvis/thigh_left/shin_left
+        weight: 1
+      - path: Char_Player_Skeleton/ROOT/bodyParent/pelvis/thigh_left/shin_left/foot_left
+        weight: 1
+      - path: Char_Player_Skeleton/ROOT/bodyParent/pelvis/thigh_left/shin_left/foot_left/toe_left
+        weight: 1
+      - path: Char_Player_Skeleton/ROOT/bodyParent/pelvis/thigh_left/shin_left/foot_left/toe_left/toe_left_end
+        weight: 1
+      - path: Char_Player_Skeleton/ROOT/bodyParent/pelvis/thigh_right
+        weight: 1
+      - path: Char_Player_Skeleton/ROOT/bodyParent/pelvis/thigh_right/shin_right
+        weight: 1
+      - path: Char_Player_Skeleton/ROOT/bodyParent/pelvis/thigh_right/shin_right/foot_right
+        weight: 1
+      - path: Char_Player_Skeleton/ROOT/bodyParent/pelvis/thigh_right/shin_right/foot_right/toe_right
+        weight: 1
+      - path: Char_Player_Skeleton/ROOT/bodyParent/pelvis/thigh_right/shin_right/foot_right/toe_right/toe_right_end
+        weight: 1
+      - path: Char_Player_Skeleton/ROOT/footIK_left
+        weight: 1
+      - path: Char_Player_Skeleton/ROOT/footIK_left/footIK_left_end
+        weight: 1
+      - path: Char_Player_Skeleton/ROOT/footIK_right
+        weight: 1
+      - path: Char_Player_Skeleton/ROOT/footIK_right/footIK_right_end
+        weight: 1
+      - path: Char_Player_Skeleton/ROOT/handIK_left
+        weight: 1
+      - path: Char_Player_Skeleton/ROOT/handIK_left/handIK_left_end
+        weight: 1
+      - path: Char_Player_Skeleton/ROOT/handIK_right
+        weight: 1
+      - path: Char_Player_Skeleton/ROOT/handIK_right/handIK_right_end
+        weight: 1
+      - path: Char_Player_Skeleton/ROOT/legPole_left
+        weight: 1
+      - path: Char_Player_Skeleton/ROOT/legPole_left/legPole_left_end
+        weight: 1
+      - path: Char_Player_Skeleton/ROOT/legPole_right
+        weight: 1
+      - path: Char_Player_Skeleton/ROOT/legPole_right/legPole_right_end
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Char_Player_Skeleton|Roll60
+      takeName: Char_Player_Skeleton|Roll60
+      firstFrame: 0
+      lastFrame: 59
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 1
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Char_Player
+        weight: 1
+      - path: Char_Player_Skeleton
+        weight: 1
+      - path: Char_Player_Skeleton/ROOT
+        weight: 1
+      - path: Char_Player_Skeleton/ROOT/armPole_left
+        weight: 1
+      - path: Char_Player_Skeleton/ROOT/armPole_left/armPole_left_end
+        weight: 1
+      - path: Char_Player_Skeleton/ROOT/armPole_right
+        weight: 1
+      - path: Char_Player_Skeleton/ROOT/armPole_right/armPole_right_end
+        weight: 1
+      - path: Char_Player_Skeleton/ROOT/bodyParent
+        weight: 1
+      - path: Char_Player_Skeleton/ROOT/bodyParent/pelvis
+        weight: 1
+      - path: Char_Player_Skeleton/ROOT/bodyParent/pelvis/spine
+        weight: 1
+      - path: Char_Player_Skeleton/ROOT/bodyParent/pelvis/spine/chest
+        weight: 1
+      - path: Char_Player_Skeleton/ROOT/bodyParent/pelvis/spine/chest/clavicle_left
+        weight: 1
+      - path: Char_Player_Skeleton/ROOT/bodyParent/pelvis/spine/chest/clavicle_left/armUpper_left
+        weight: 1
+      - path: Char_Player_Skeleton/ROOT/bodyParent/pelvis/spine/chest/clavicle_left/armUpper_left/armLower_left
+        weight: 1
+      - path: Char_Player_Skeleton/ROOT/bodyParent/pelvis/spine/chest/clavicle_left/armUpper_left/armLower_left/armLowerTwist_left
+        weight: 1
+      - path: Char_Player_Skeleton/ROOT/bodyParent/pelvis/spine/chest/clavicle_left/armUpper_left/armLower_left/armLowerTwist_left/armLowerTwist_left_end
+        weight: 1
+      - path: Char_Player_Skeleton/ROOT/bodyParent/pelvis/spine/chest/clavicle_left/armUpper_left/armLower_left/hand_left
+        weight: 1
+      - path: Char_Player_Skeleton/ROOT/bodyParent/pelvis/spine/chest/clavicle_left/armUpper_left/armLower_left/hand_left/indexRoot_left
+        weight: 1
+      - path: Char_Player_Skeleton/ROOT/bodyParent/pelvis/spine/chest/clavicle_left/armUpper_left/armLower_left/hand_left/indexRoot_left/indexEnd_left
+        weight: 1
+      - path: Char_Player_Skeleton/ROOT/bodyParent/pelvis/spine/chest/clavicle_left/armUpper_left/armLower_left/hand_left/indexRoot_left/indexEnd_left/indexEnd_left_end
+        weight: 1
+      - path: Char_Player_Skeleton/ROOT/bodyParent/pelvis/spine/chest/clavicle_left/armUpper_left/armLower_left/hand_left/pinkyRoot_left
+        weight: 1
+      - path: Char_Player_Skeleton/ROOT/bodyParent/pelvis/spine/chest/clavicle_left/armUpper_left/armLower_left/hand_left/pinkyRoot_left/pinkyEnd_left
+        weight: 1
+      - path: Char_Player_Skeleton/ROOT/bodyParent/pelvis/spine/chest/clavicle_left/armUpper_left/armLower_left/hand_left/pinkyRoot_left/pinkyEnd_left/pinkyEnd_left_end
+        weight: 1
+      - path: Char_Player_Skeleton/ROOT/bodyParent/pelvis/spine/chest/clavicle_left/armUpper_left/armLower_left/hand_left/thumbRoot_left
+        weight: 1
+      - path: Char_Player_Skeleton/ROOT/bodyParent/pelvis/spine/chest/clavicle_left/armUpper_left/armLower_left/hand_left/thumbRoot_left/thumbEnd_left
+        weight: 1
+      - path: Char_Player_Skeleton/ROOT/bodyParent/pelvis/spine/chest/clavicle_left/armUpper_left/armLower_left/hand_left/thumbRoot_left/thumbEnd_left/thumbEnd_left_end
+        weight: 1
+      - path: Char_Player_Skeleton/ROOT/bodyParent/pelvis/spine/chest/clavicle_left/armUpper_left/armUpperTwist_left
+        weight: 1
+      - path: Char_Player_Skeleton/ROOT/bodyParent/pelvis/spine/chest/clavicle_left/armUpper_left/armUpperTwist_left/armUpperTwist_left_end
+        weight: 1
+      - path: Char_Player_Skeleton/ROOT/bodyParent/pelvis/spine/chest/clavicle_right
+        weight: 1
+      - path: Char_Player_Skeleton/ROOT/bodyParent/pelvis/spine/chest/clavicle_right/armUpper_right
+        weight: 1
+      - path: Char_Player_Skeleton/ROOT/bodyParent/pelvis/spine/chest/clavicle_right/armUpper_right/armLower_right
+        weight: 1
+      - path: Char_Player_Skeleton/ROOT/bodyParent/pelvis/spine/chest/clavicle_right/armUpper_right/armLower_right/armLowerTwist_right
+        weight: 1
+      - path: Char_Player_Skeleton/ROOT/bodyParent/pelvis/spine/chest/clavicle_right/armUpper_right/armLower_right/armLowerTwist_right/armLowerTwist_right_end
+        weight: 1
+      - path: Char_Player_Skeleton/ROOT/bodyParent/pelvis/spine/chest/clavicle_right/armUpper_right/armLower_right/hand_right
+        weight: 1
+      - path: Char_Player_Skeleton/ROOT/bodyParent/pelvis/spine/chest/clavicle_right/armUpper_right/armLower_right/hand_right/indexRoot_right
+        weight: 1
+      - path: Char_Player_Skeleton/ROOT/bodyParent/pelvis/spine/chest/clavicle_right/armUpper_right/armLower_right/hand_right/indexRoot_right/indexEnd_right
+        weight: 1
+      - path: Char_Player_Skeleton/ROOT/bodyParent/pelvis/spine/chest/clavicle_right/armUpper_right/armLower_right/hand_right/indexRoot_right/indexEnd_right/indexEnd_right_end
+        weight: 1
+      - path: Char_Player_Skeleton/ROOT/bodyParent/pelvis/spine/chest/clavicle_right/armUpper_right/armLower_right/hand_right/pinkyRoot_right
+        weight: 1
+      - path: Char_Player_Skeleton/ROOT/bodyParent/pelvis/spine/chest/clavicle_right/armUpper_right/armLower_right/hand_right/pinkyRoot_right/pinkyEnd_right
+        weight: 1
+      - path: Char_Player_Skeleton/ROOT/bodyParent/pelvis/spine/chest/clavicle_right/armUpper_right/armLower_right/hand_right/pinkyRoot_right/pinkyEnd_right/pinkyEnd_right_end
+        weight: 1
+      - path: Char_Player_Skeleton/ROOT/bodyParent/pelvis/spine/chest/clavicle_right/armUpper_right/armLower_right/hand_right/thumbRoot_right
+        weight: 1
+      - path: Char_Player_Skeleton/ROOT/bodyParent/pelvis/spine/chest/clavicle_right/armUpper_right/armLower_right/hand_right/thumbRoot_right/thumbEnd_right
+        weight: 1
+      - path: Char_Player_Skeleton/ROOT/bodyParent/pelvis/spine/chest/clavicle_right/armUpper_right/armLower_right/hand_right/thumbRoot_right/thumbEnd_right/thumbEnd_right_end
+        weight: 1
+      - path: Char_Player_Skeleton/ROOT/bodyParent/pelvis/spine/chest/clavicle_right/armUpper_right/armUpperTwist_right
+        weight: 1
+      - path: Char_Player_Skeleton/ROOT/bodyParent/pelvis/spine/chest/clavicle_right/armUpper_right/armUpperTwist_right/armUpperTwist_right_end
+        weight: 1
+      - path: Char_Player_Skeleton/ROOT/bodyParent/pelvis/spine/chest/neck
+        weight: 1
+      - path: Char_Player_Skeleton/ROOT/bodyParent/pelvis/spine/chest/neck/head
+        weight: 1
+      - path: Char_Player_Skeleton/ROOT/bodyParent/pelvis/spine/chest/neck/head/eye_left
+        weight: 1
+      - path: Char_Player_Skeleton/ROOT/bodyParent/pelvis/spine/chest/neck/head/eye_left/eye_left_end
+        weight: 1
+      - path: Char_Player_Skeleton/ROOT/bodyParent/pelvis/spine/chest/neck/head/eye_right
+        weight: 1
+      - path: Char_Player_Skeleton/ROOT/bodyParent/pelvis/spine/chest/neck/head/eye_right/eye_right_end
+        weight: 1
+      - path: Char_Player_Skeleton/ROOT/bodyParent/pelvis/spine/chest/neck/head/eyebrowLower_left
+        weight: 1
+      - path: Char_Player_Skeleton/ROOT/bodyParent/pelvis/spine/chest/neck/head/eyebrowLower_left/eyebrowLower_left_end
+        weight: 1
+      - path: Char_Player_Skeleton/ROOT/bodyParent/pelvis/spine/chest/neck/head/eyebrowLower_right
+        weight: 1
+      - path: Char_Player_Skeleton/ROOT/bodyParent/pelvis/spine/chest/neck/head/eyebrowLower_right/eyebrowLower_right_end
+        weight: 1
+      - path: Char_Player_Skeleton/ROOT/bodyParent/pelvis/spine/chest/neck/head/eyebrowUpper_left
+        weight: 1
+      - path: Char_Player_Skeleton/ROOT/bodyParent/pelvis/spine/chest/neck/head/eyebrowUpper_left/eyebrowUpper_left_end
+        weight: 1
+      - path: Char_Player_Skeleton/ROOT/bodyParent/pelvis/spine/chest/neck/head/eyebrowUpper_right
+        weight: 1
+      - path: Char_Player_Skeleton/ROOT/bodyParent/pelvis/spine/chest/neck/head/eyebrowUpper_right/eyebrowUpper_right_end
+        weight: 1
+      - path: Char_Player_Skeleton/ROOT/bodyParent/pelvis/spine/chest/neck/head/eyelidLower_left
+        weight: 1
+      - path: Char_Player_Skeleton/ROOT/bodyParent/pelvis/spine/chest/neck/head/eyelidLower_left/eyelidLower_left_end
+        weight: 1
+      - path: Char_Player_Skeleton/ROOT/bodyParent/pelvis/spine/chest/neck/head/eyelidLower_right
+        weight: 1
+      - path: Char_Player_Skeleton/ROOT/bodyParent/pelvis/spine/chest/neck/head/eyelidLower_right/eyelidLower_right_end
+        weight: 1
+      - path: Char_Player_Skeleton/ROOT/bodyParent/pelvis/spine/chest/neck/head/eyelidUpper_left
+        weight: 1
+      - path: Char_Player_Skeleton/ROOT/bodyParent/pelvis/spine/chest/neck/head/eyelidUpper_left/eyelidUpper_left_end
+        weight: 1
+      - path: Char_Player_Skeleton/ROOT/bodyParent/pelvis/spine/chest/neck/head/eyelidUpper_right
+        weight: 1
+      - path: Char_Player_Skeleton/ROOT/bodyParent/pelvis/spine/chest/neck/head/eyelidUpper_right/eyelidUpper_right_end
+        weight: 1
+      - path: Char_Player_Skeleton/ROOT/bodyParent/pelvis/spine/chest/neck/head/jaw
+        weight: 1
+      - path: Char_Player_Skeleton/ROOT/bodyParent/pelvis/spine/chest/neck/head/jaw/teethLower
+        weight: 1
+      - path: Char_Player_Skeleton/ROOT/bodyParent/pelvis/spine/chest/neck/head/jaw/teethLower/teethLower_end
+        weight: 1
+      - path: Char_Player_Skeleton/ROOT/bodyParent/pelvis/spine/chest/neck/head/teethUpper
+        weight: 1
+      - path: Char_Player_Skeleton/ROOT/bodyParent/pelvis/spine/chest/neck/head/teethUpper/teethUpper_end
+        weight: 1
+      - path: Char_Player_Skeleton/ROOT/bodyParent/pelvis/tail1
+        weight: 1
+      - path: Char_Player_Skeleton/ROOT/bodyParent/pelvis/tail1/tail2
+        weight: 1
+      - path: Char_Player_Skeleton/ROOT/bodyParent/pelvis/tail1/tail2/tail3
+        weight: 1
+      - path: Char_Player_Skeleton/ROOT/bodyParent/pelvis/tail1/tail2/tail3/tail4
+        weight: 1
+      - path: Char_Player_Skeleton/ROOT/bodyParent/pelvis/tail1/tail2/tail3/tail4/tail4_end
+        weight: 1
+      - path: Char_Player_Skeleton/ROOT/bodyParent/pelvis/thigh_left
+        weight: 1
+      - path: Char_Player_Skeleton/ROOT/bodyParent/pelvis/thigh_left/shin_left
+        weight: 1
+      - path: Char_Player_Skeleton/ROOT/bodyParent/pelvis/thigh_left/shin_left/foot_left
+        weight: 1
+      - path: Char_Player_Skeleton/ROOT/bodyParent/pelvis/thigh_left/shin_left/foot_left/toe_left
+        weight: 1
+      - path: Char_Player_Skeleton/ROOT/bodyParent/pelvis/thigh_left/shin_left/foot_left/toe_left/toe_left_end
+        weight: 1
+      - path: Char_Player_Skeleton/ROOT/bodyParent/pelvis/thigh_right
+        weight: 1
+      - path: Char_Player_Skeleton/ROOT/bodyParent/pelvis/thigh_right/shin_right
+        weight: 1
+      - path: Char_Player_Skeleton/ROOT/bodyParent/pelvis/thigh_right/shin_right/foot_right
+        weight: 1
+      - path: Char_Player_Skeleton/ROOT/bodyParent/pelvis/thigh_right/shin_right/foot_right/toe_right
+        weight: 1
+      - path: Char_Player_Skeleton/ROOT/bodyParent/pelvis/thigh_right/shin_right/foot_right/toe_right/toe_right_end
+        weight: 1
+      - path: Char_Player_Skeleton/ROOT/footIK_left
+        weight: 1
+      - path: Char_Player_Skeleton/ROOT/footIK_left/footIK_left_end
+        weight: 1
+      - path: Char_Player_Skeleton/ROOT/footIK_right
+        weight: 1
+      - path: Char_Player_Skeleton/ROOT/footIK_right/footIK_right_end
+        weight: 1
+      - path: Char_Player_Skeleton/ROOT/handIK_left
+        weight: 1
+      - path: Char_Player_Skeleton/ROOT/handIK_left/handIK_left_end
+        weight: 1
+      - path: Char_Player_Skeleton/ROOT/handIK_right
+        weight: 1
+      - path: Char_Player_Skeleton/ROOT/handIK_right/handIK_right_end
+        weight: 1
+      - path: Char_Player_Skeleton/ROOT/legPole_left
+        weight: 1
+      - path: Char_Player_Skeleton/ROOT/legPole_left/legPole_left_end
+        weight: 1
+      - path: Char_Player_Skeleton/ROOT/legPole_right
+        weight: 1
+      - path: Char_Player_Skeleton/ROOT/legPole_right/legPole_right_end
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Char_Player_Skeleton|RunCrouch15
+      takeName: Char_Player_Skeleton|RunCrouch15
+      firstFrame: 0
+      lastFrame: 14
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 1
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Char_Player
+        weight: 1
+      - path: Char_Player_Skeleton
+        weight: 1
+      - path: Char_Player_Skeleton/ROOT
+        weight: 1
+      - path: Char_Player_Skeleton/ROOT/armPole_left
+        weight: 1
+      - path: Char_Player_Skeleton/ROOT/armPole_left/armPole_left_end
+        weight: 1
+      - path: Char_Player_Skeleton/ROOT/armPole_right
+        weight: 1
+      - path: Char_Player_Skeleton/ROOT/armPole_right/armPole_right_end
+        weight: 1
+      - path: Char_Player_Skeleton/ROOT/bodyParent
+        weight: 1
+      - path: Char_Player_Skeleton/ROOT/bodyParent/pelvis
+        weight: 1
+      - path: Char_Player_Skeleton/ROOT/bodyParent/pelvis/spine
+        weight: 1
+      - path: Char_Player_Skeleton/ROOT/bodyParent/pelvis/spine/chest
+        weight: 1
+      - path: Char_Player_Skeleton/ROOT/bodyParent/pelvis/spine/chest/clavicle_left
+        weight: 1
+      - path: Char_Player_Skeleton/ROOT/bodyParent/pelvis/spine/chest/clavicle_left/armUpper_left
+        weight: 1
+      - path: Char_Player_Skeleton/ROOT/bodyParent/pelvis/spine/chest/clavicle_left/armUpper_left/armLower_left
+        weight: 1
+      - path: Char_Player_Skeleton/ROOT/bodyParent/pelvis/spine/chest/clavicle_left/armUpper_left/armLower_left/armLowerTwist_left
+        weight: 1
+      - path: Char_Player_Skeleton/ROOT/bodyParent/pelvis/spine/chest/clavicle_left/armUpper_left/armLower_left/armLowerTwist_left/armLowerTwist_left_end
+        weight: 1
+      - path: Char_Player_Skeleton/ROOT/bodyParent/pelvis/spine/chest/clavicle_left/armUpper_left/armLower_left/hand_left
+        weight: 1
+      - path: Char_Player_Skeleton/ROOT/bodyParent/pelvis/spine/chest/clavicle_left/armUpper_left/armLower_left/hand_left/indexRoot_left
+        weight: 1
+      - path: Char_Player_Skeleton/ROOT/bodyParent/pelvis/spine/chest/clavicle_left/armUpper_left/armLower_left/hand_left/indexRoot_left/indexEnd_left
+        weight: 1
+      - path: Char_Player_Skeleton/ROOT/bodyParent/pelvis/spine/chest/clavicle_left/armUpper_left/armLower_left/hand_left/indexRoot_left/indexEnd_left/indexEnd_left_end
+        weight: 1
+      - path: Char_Player_Skeleton/ROOT/bodyParent/pelvis/spine/chest/clavicle_left/armUpper_left/armLower_left/hand_left/pinkyRoot_left
+        weight: 1
+      - path: Char_Player_Skeleton/ROOT/bodyParent/pelvis/spine/chest/clavicle_left/armUpper_left/armLower_left/hand_left/pinkyRoot_left/pinkyEnd_left
+        weight: 1
+      - path: Char_Player_Skeleton/ROOT/bodyParent/pelvis/spine/chest/clavicle_left/armUpper_left/armLower_left/hand_left/pinkyRoot_left/pinkyEnd_left/pinkyEnd_left_end
+        weight: 1
+      - path: Char_Player_Skeleton/ROOT/bodyParent/pelvis/spine/chest/clavicle_left/armUpper_left/armLower_left/hand_left/thumbRoot_left
+        weight: 1
+      - path: Char_Player_Skeleton/ROOT/bodyParent/pelvis/spine/chest/clavicle_left/armUpper_left/armLower_left/hand_left/thumbRoot_left/thumbEnd_left
+        weight: 1
+      - path: Char_Player_Skeleton/ROOT/bodyParent/pelvis/spine/chest/clavicle_left/armUpper_left/armLower_left/hand_left/thumbRoot_left/thumbEnd_left/thumbEnd_left_end
+        weight: 1
+      - path: Char_Player_Skeleton/ROOT/bodyParent/pelvis/spine/chest/clavicle_left/armUpper_left/armUpperTwist_left
+        weight: 1
+      - path: Char_Player_Skeleton/ROOT/bodyParent/pelvis/spine/chest/clavicle_left/armUpper_left/armUpperTwist_left/armUpperTwist_left_end
+        weight: 1
+      - path: Char_Player_Skeleton/ROOT/bodyParent/pelvis/spine/chest/clavicle_right
+        weight: 1
+      - path: Char_Player_Skeleton/ROOT/bodyParent/pelvis/spine/chest/clavicle_right/armUpper_right
+        weight: 1
+      - path: Char_Player_Skeleton/ROOT/bodyParent/pelvis/spine/chest/clavicle_right/armUpper_right/armLower_right
+        weight: 1
+      - path: Char_Player_Skeleton/ROOT/bodyParent/pelvis/spine/chest/clavicle_right/armUpper_right/armLower_right/armLowerTwist_right
+        weight: 1
+      - path: Char_Player_Skeleton/ROOT/bodyParent/pelvis/spine/chest/clavicle_right/armUpper_right/armLower_right/armLowerTwist_right/armLowerTwist_right_end
+        weight: 1
+      - path: Char_Player_Skeleton/ROOT/bodyParent/pelvis/spine/chest/clavicle_right/armUpper_right/armLower_right/hand_right
+        weight: 1
+      - path: Char_Player_Skeleton/ROOT/bodyParent/pelvis/spine/chest/clavicle_right/armUpper_right/armLower_right/hand_right/indexRoot_right
+        weight: 1
+      - path: Char_Player_Skeleton/ROOT/bodyParent/pelvis/spine/chest/clavicle_right/armUpper_right/armLower_right/hand_right/indexRoot_right/indexEnd_right
+        weight: 1
+      - path: Char_Player_Skeleton/ROOT/bodyParent/pelvis/spine/chest/clavicle_right/armUpper_right/armLower_right/hand_right/indexRoot_right/indexEnd_right/indexEnd_right_end
+        weight: 1
+      - path: Char_Player_Skeleton/ROOT/bodyParent/pelvis/spine/chest/clavicle_right/armUpper_right/armLower_right/hand_right/pinkyRoot_right
+        weight: 1
+      - path: Char_Player_Skeleton/ROOT/bodyParent/pelvis/spine/chest/clavicle_right/armUpper_right/armLower_right/hand_right/pinkyRoot_right/pinkyEnd_right
+        weight: 1
+      - path: Char_Player_Skeleton/ROOT/bodyParent/pelvis/spine/chest/clavicle_right/armUpper_right/armLower_right/hand_right/pinkyRoot_right/pinkyEnd_right/pinkyEnd_right_end
+        weight: 1
+      - path: Char_Player_Skeleton/ROOT/bodyParent/pelvis/spine/chest/clavicle_right/armUpper_right/armLower_right/hand_right/thumbRoot_right
+        weight: 1
+      - path: Char_Player_Skeleton/ROOT/bodyParent/pelvis/spine/chest/clavicle_right/armUpper_right/armLower_right/hand_right/thumbRoot_right/thumbEnd_right
+        weight: 1
+      - path: Char_Player_Skeleton/ROOT/bodyParent/pelvis/spine/chest/clavicle_right/armUpper_right/armLower_right/hand_right/thumbRoot_right/thumbEnd_right/thumbEnd_right_end
+        weight: 1
+      - path: Char_Player_Skeleton/ROOT/bodyParent/pelvis/spine/chest/clavicle_right/armUpper_right/armUpperTwist_right
+        weight: 1
+      - path: Char_Player_Skeleton/ROOT/bodyParent/pelvis/spine/chest/clavicle_right/armUpper_right/armUpperTwist_right/armUpperTwist_right_end
+        weight: 1
+      - path: Char_Player_Skeleton/ROOT/bodyParent/pelvis/spine/chest/neck
+        weight: 1
+      - path: Char_Player_Skeleton/ROOT/bodyParent/pelvis/spine/chest/neck/head
+        weight: 1
+      - path: Char_Player_Skeleton/ROOT/bodyParent/pelvis/spine/chest/neck/head/eye_left
+        weight: 1
+      - path: Char_Player_Skeleton/ROOT/bodyParent/pelvis/spine/chest/neck/head/eye_left/eye_left_end
+        weight: 1
+      - path: Char_Player_Skeleton/ROOT/bodyParent/pelvis/spine/chest/neck/head/eye_right
+        weight: 1
+      - path: Char_Player_Skeleton/ROOT/bodyParent/pelvis/spine/chest/neck/head/eye_right/eye_right_end
+        weight: 1
+      - path: Char_Player_Skeleton/ROOT/bodyParent/pelvis/spine/chest/neck/head/eyebrowLower_left
+        weight: 1
+      - path: Char_Player_Skeleton/ROOT/bodyParent/pelvis/spine/chest/neck/head/eyebrowLower_left/eyebrowLower_left_end
+        weight: 1
+      - path: Char_Player_Skeleton/ROOT/bodyParent/pelvis/spine/chest/neck/head/eyebrowLower_right
+        weight: 1
+      - path: Char_Player_Skeleton/ROOT/bodyParent/pelvis/spine/chest/neck/head/eyebrowLower_right/eyebrowLower_right_end
+        weight: 1
+      - path: Char_Player_Skeleton/ROOT/bodyParent/pelvis/spine/chest/neck/head/eyebrowUpper_left
+        weight: 1
+      - path: Char_Player_Skeleton/ROOT/bodyParent/pelvis/spine/chest/neck/head/eyebrowUpper_left/eyebrowUpper_left_end
+        weight: 1
+      - path: Char_Player_Skeleton/ROOT/bodyParent/pelvis/spine/chest/neck/head/eyebrowUpper_right
+        weight: 1
+      - path: Char_Player_Skeleton/ROOT/bodyParent/pelvis/spine/chest/neck/head/eyebrowUpper_right/eyebrowUpper_right_end
+        weight: 1
+      - path: Char_Player_Skeleton/ROOT/bodyParent/pelvis/spine/chest/neck/head/eyelidLower_left
+        weight: 1
+      - path: Char_Player_Skeleton/ROOT/bodyParent/pelvis/spine/chest/neck/head/eyelidLower_left/eyelidLower_left_end
+        weight: 1
+      - path: Char_Player_Skeleton/ROOT/bodyParent/pelvis/spine/chest/neck/head/eyelidLower_right
+        weight: 1
+      - path: Char_Player_Skeleton/ROOT/bodyParent/pelvis/spine/chest/neck/head/eyelidLower_right/eyelidLower_right_end
+        weight: 1
+      - path: Char_Player_Skeleton/ROOT/bodyParent/pelvis/spine/chest/neck/head/eyelidUpper_left
+        weight: 1
+      - path: Char_Player_Skeleton/ROOT/bodyParent/pelvis/spine/chest/neck/head/eyelidUpper_left/eyelidUpper_left_end
+        weight: 1
+      - path: Char_Player_Skeleton/ROOT/bodyParent/pelvis/spine/chest/neck/head/eyelidUpper_right
+        weight: 1
+      - path: Char_Player_Skeleton/ROOT/bodyParent/pelvis/spine/chest/neck/head/eyelidUpper_right/eyelidUpper_right_end
+        weight: 1
+      - path: Char_Player_Skeleton/ROOT/bodyParent/pelvis/spine/chest/neck/head/jaw
+        weight: 1
+      - path: Char_Player_Skeleton/ROOT/bodyParent/pelvis/spine/chest/neck/head/jaw/teethLower
+        weight: 1
+      - path: Char_Player_Skeleton/ROOT/bodyParent/pelvis/spine/chest/neck/head/jaw/teethLower/teethLower_end
+        weight: 1
+      - path: Char_Player_Skeleton/ROOT/bodyParent/pelvis/spine/chest/neck/head/teethUpper
+        weight: 1
+      - path: Char_Player_Skeleton/ROOT/bodyParent/pelvis/spine/chest/neck/head/teethUpper/teethUpper_end
+        weight: 1
+      - path: Char_Player_Skeleton/ROOT/bodyParent/pelvis/tail1
+        weight: 1
+      - path: Char_Player_Skeleton/ROOT/bodyParent/pelvis/tail1/tail2
+        weight: 1
+      - path: Char_Player_Skeleton/ROOT/bodyParent/pelvis/tail1/tail2/tail3
+        weight: 1
+      - path: Char_Player_Skeleton/ROOT/bodyParent/pelvis/tail1/tail2/tail3/tail4
+        weight: 1
+      - path: Char_Player_Skeleton/ROOT/bodyParent/pelvis/tail1/tail2/tail3/tail4/tail4_end
+        weight: 1
+      - path: Char_Player_Skeleton/ROOT/bodyParent/pelvis/thigh_left
+        weight: 1
+      - path: Char_Player_Skeleton/ROOT/bodyParent/pelvis/thigh_left/shin_left
+        weight: 1
+      - path: Char_Player_Skeleton/ROOT/bodyParent/pelvis/thigh_left/shin_left/foot_left
+        weight: 1
+      - path: Char_Player_Skeleton/ROOT/bodyParent/pelvis/thigh_left/shin_left/foot_left/toe_left
+        weight: 1
+      - path: Char_Player_Skeleton/ROOT/bodyParent/pelvis/thigh_left/shin_left/foot_left/toe_left/toe_left_end
+        weight: 1
+      - path: Char_Player_Skeleton/ROOT/bodyParent/pelvis/thigh_right
+        weight: 1
+      - path: Char_Player_Skeleton/ROOT/bodyParent/pelvis/thigh_right/shin_right
+        weight: 1
+      - path: Char_Player_Skeleton/ROOT/bodyParent/pelvis/thigh_right/shin_right/foot_right
+        weight: 1
+      - path: Char_Player_Skeleton/ROOT/bodyParent/pelvis/thigh_right/shin_right/foot_right/toe_right
+        weight: 1
+      - path: Char_Player_Skeleton/ROOT/bodyParent/pelvis/thigh_right/shin_right/foot_right/toe_right/toe_right_end
+        weight: 1
+      - path: Char_Player_Skeleton/ROOT/footIK_left
+        weight: 1
+      - path: Char_Player_Skeleton/ROOT/footIK_left/footIK_left_end
+        weight: 1
+      - path: Char_Player_Skeleton/ROOT/footIK_right
+        weight: 1
+      - path: Char_Player_Skeleton/ROOT/footIK_right/footIK_right_end
+        weight: 1
+      - path: Char_Player_Skeleton/ROOT/handIK_left
+        weight: 1
+      - path: Char_Player_Skeleton/ROOT/handIK_left/handIK_left_end
+        weight: 1
+      - path: Char_Player_Skeleton/ROOT/handIK_right
+        weight: 1
+      - path: Char_Player_Skeleton/ROOT/handIK_right/handIK_right_end
+        weight: 1
+      - path: Char_Player_Skeleton/ROOT/legPole_left
+        weight: 1
+      - path: Char_Player_Skeleton/ROOT/legPole_left/legPole_left_end
+        weight: 1
+      - path: Char_Player_Skeleton/ROOT/legPole_right
+        weight: 1
+      - path: Char_Player_Skeleton/ROOT/legPole_right/legPole_right_end
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Char_Player_Skeleton|RunStand60
+      takeName: Char_Player_Skeleton|RunStand60
+      firstFrame: 0
+      lastFrame: 59
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 1
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Char_Player
+        weight: 1
+      - path: Char_Player_Skeleton
+        weight: 1
+      - path: Char_Player_Skeleton/ROOT
+        weight: 1
+      - path: Char_Player_Skeleton/ROOT/armPole_left
+        weight: 1
+      - path: Char_Player_Skeleton/ROOT/armPole_left/armPole_left_end
+        weight: 1
+      - path: Char_Player_Skeleton/ROOT/armPole_right
+        weight: 1
+      - path: Char_Player_Skeleton/ROOT/armPole_right/armPole_right_end
+        weight: 1
+      - path: Char_Player_Skeleton/ROOT/bodyParent
+        weight: 1
+      - path: Char_Player_Skeleton/ROOT/bodyParent/pelvis
+        weight: 1
+      - path: Char_Player_Skeleton/ROOT/bodyParent/pelvis/spine
+        weight: 1
+      - path: Char_Player_Skeleton/ROOT/bodyParent/pelvis/spine/chest
+        weight: 1
+      - path: Char_Player_Skeleton/ROOT/bodyParent/pelvis/spine/chest/clavicle_left
+        weight: 1
+      - path: Char_Player_Skeleton/ROOT/bodyParent/pelvis/spine/chest/clavicle_left/armUpper_left
+        weight: 1
+      - path: Char_Player_Skeleton/ROOT/bodyParent/pelvis/spine/chest/clavicle_left/armUpper_left/armLower_left
+        weight: 1
+      - path: Char_Player_Skeleton/ROOT/bodyParent/pelvis/spine/chest/clavicle_left/armUpper_left/armLower_left/armLowerTwist_left
+        weight: 1
+      - path: Char_Player_Skeleton/ROOT/bodyParent/pelvis/spine/chest/clavicle_left/armUpper_left/armLower_left/armLowerTwist_left/armLowerTwist_left_end
+        weight: 1
+      - path: Char_Player_Skeleton/ROOT/bodyParent/pelvis/spine/chest/clavicle_left/armUpper_left/armLower_left/hand_left
+        weight: 1
+      - path: Char_Player_Skeleton/ROOT/bodyParent/pelvis/spine/chest/clavicle_left/armUpper_left/armLower_left/hand_left/indexRoot_left
+        weight: 1
+      - path: Char_Player_Skeleton/ROOT/bodyParent/pelvis/spine/chest/clavicle_left/armUpper_left/armLower_left/hand_left/indexRoot_left/indexEnd_left
+        weight: 1
+      - path: Char_Player_Skeleton/ROOT/bodyParent/pelvis/spine/chest/clavicle_left/armUpper_left/armLower_left/hand_left/indexRoot_left/indexEnd_left/indexEnd_left_end
+        weight: 1
+      - path: Char_Player_Skeleton/ROOT/bodyParent/pelvis/spine/chest/clavicle_left/armUpper_left/armLower_left/hand_left/pinkyRoot_left
+        weight: 1
+      - path: Char_Player_Skeleton/ROOT/bodyParent/pelvis/spine/chest/clavicle_left/armUpper_left/armLower_left/hand_left/pinkyRoot_left/pinkyEnd_left
+        weight: 1
+      - path: Char_Player_Skeleton/ROOT/bodyParent/pelvis/spine/chest/clavicle_left/armUpper_left/armLower_left/hand_left/pinkyRoot_left/pinkyEnd_left/pinkyEnd_left_end
+        weight: 1
+      - path: Char_Player_Skeleton/ROOT/bodyParent/pelvis/spine/chest/clavicle_left/armUpper_left/armLower_left/hand_left/thumbRoot_left
+        weight: 1
+      - path: Char_Player_Skeleton/ROOT/bodyParent/pelvis/spine/chest/clavicle_left/armUpper_left/armLower_left/hand_left/thumbRoot_left/thumbEnd_left
+        weight: 1
+      - path: Char_Player_Skeleton/ROOT/bodyParent/pelvis/spine/chest/clavicle_left/armUpper_left/armLower_left/hand_left/thumbRoot_left/thumbEnd_left/thumbEnd_left_end
+        weight: 1
+      - path: Char_Player_Skeleton/ROOT/bodyParent/pelvis/spine/chest/clavicle_left/armUpper_left/armUpperTwist_left
+        weight: 1
+      - path: Char_Player_Skeleton/ROOT/bodyParent/pelvis/spine/chest/clavicle_left/armUpper_left/armUpperTwist_left/armUpperTwist_left_end
+        weight: 1
+      - path: Char_Player_Skeleton/ROOT/bodyParent/pelvis/spine/chest/clavicle_right
+        weight: 1
+      - path: Char_Player_Skeleton/ROOT/bodyParent/pelvis/spine/chest/clavicle_right/armUpper_right
+        weight: 1
+      - path: Char_Player_Skeleton/ROOT/bodyParent/pelvis/spine/chest/clavicle_right/armUpper_right/armLower_right
+        weight: 1
+      - path: Char_Player_Skeleton/ROOT/bodyParent/pelvis/spine/chest/clavicle_right/armUpper_right/armLower_right/armLowerTwist_right
+        weight: 1
+      - path: Char_Player_Skeleton/ROOT/bodyParent/pelvis/spine/chest/clavicle_right/armUpper_right/armLower_right/armLowerTwist_right/armLowerTwist_right_end
+        weight: 1
+      - path: Char_Player_Skeleton/ROOT/bodyParent/pelvis/spine/chest/clavicle_right/armUpper_right/armLower_right/hand_right
+        weight: 1
+      - path: Char_Player_Skeleton/ROOT/bodyParent/pelvis/spine/chest/clavicle_right/armUpper_right/armLower_right/hand_right/indexRoot_right
+        weight: 1
+      - path: Char_Player_Skeleton/ROOT/bodyParent/pelvis/spine/chest/clavicle_right/armUpper_right/armLower_right/hand_right/indexRoot_right/indexEnd_right
+        weight: 1
+      - path: Char_Player_Skeleton/ROOT/bodyParent/pelvis/spine/chest/clavicle_right/armUpper_right/armLower_right/hand_right/indexRoot_right/indexEnd_right/indexEnd_right_end
+        weight: 1
+      - path: Char_Player_Skeleton/ROOT/bodyParent/pelvis/spine/chest/clavicle_right/armUpper_right/armLower_right/hand_right/pinkyRoot_right
+        weight: 1
+      - path: Char_Player_Skeleton/ROOT/bodyParent/pelvis/spine/chest/clavicle_right/armUpper_right/armLower_right/hand_right/pinkyRoot_right/pinkyEnd_right
+        weight: 1
+      - path: Char_Player_Skeleton/ROOT/bodyParent/pelvis/spine/chest/clavicle_right/armUpper_right/armLower_right/hand_right/pinkyRoot_right/pinkyEnd_right/pinkyEnd_right_end
+        weight: 1
+      - path: Char_Player_Skeleton/ROOT/bodyParent/pelvis/spine/chest/clavicle_right/armUpper_right/armLower_right/hand_right/thumbRoot_right
+        weight: 1
+      - path: Char_Player_Skeleton/ROOT/bodyParent/pelvis/spine/chest/clavicle_right/armUpper_right/armLower_right/hand_right/thumbRoot_right/thumbEnd_right
+        weight: 1
+      - path: Char_Player_Skeleton/ROOT/bodyParent/pelvis/spine/chest/clavicle_right/armUpper_right/armLower_right/hand_right/thumbRoot_right/thumbEnd_right/thumbEnd_right_end
+        weight: 1
+      - path: Char_Player_Skeleton/ROOT/bodyParent/pelvis/spine/chest/clavicle_right/armUpper_right/armUpperTwist_right
+        weight: 1
+      - path: Char_Player_Skeleton/ROOT/bodyParent/pelvis/spine/chest/clavicle_right/armUpper_right/armUpperTwist_right/armUpperTwist_right_end
+        weight: 1
+      - path: Char_Player_Skeleton/ROOT/bodyParent/pelvis/spine/chest/neck
+        weight: 1
+      - path: Char_Player_Skeleton/ROOT/bodyParent/pelvis/spine/chest/neck/head
+        weight: 1
+      - path: Char_Player_Skeleton/ROOT/bodyParent/pelvis/spine/chest/neck/head/eye_left
+        weight: 1
+      - path: Char_Player_Skeleton/ROOT/bodyParent/pelvis/spine/chest/neck/head/eye_left/eye_left_end
+        weight: 1
+      - path: Char_Player_Skeleton/ROOT/bodyParent/pelvis/spine/chest/neck/head/eye_right
+        weight: 1
+      - path: Char_Player_Skeleton/ROOT/bodyParent/pelvis/spine/chest/neck/head/eye_right/eye_right_end
+        weight: 1
+      - path: Char_Player_Skeleton/ROOT/bodyParent/pelvis/spine/chest/neck/head/eyebrowLower_left
+        weight: 1
+      - path: Char_Player_Skeleton/ROOT/bodyParent/pelvis/spine/chest/neck/head/eyebrowLower_left/eyebrowLower_left_end
+        weight: 1
+      - path: Char_Player_Skeleton/ROOT/bodyParent/pelvis/spine/chest/neck/head/eyebrowLower_right
+        weight: 1
+      - path: Char_Player_Skeleton/ROOT/bodyParent/pelvis/spine/chest/neck/head/eyebrowLower_right/eyebrowLower_right_end
+        weight: 1
+      - path: Char_Player_Skeleton/ROOT/bodyParent/pelvis/spine/chest/neck/head/eyebrowUpper_left
+        weight: 1
+      - path: Char_Player_Skeleton/ROOT/bodyParent/pelvis/spine/chest/neck/head/eyebrowUpper_left/eyebrowUpper_left_end
+        weight: 1
+      - path: Char_Player_Skeleton/ROOT/bodyParent/pelvis/spine/chest/neck/head/eyebrowUpper_right
+        weight: 1
+      - path: Char_Player_Skeleton/ROOT/bodyParent/pelvis/spine/chest/neck/head/eyebrowUpper_right/eyebrowUpper_right_end
+        weight: 1
+      - path: Char_Player_Skeleton/ROOT/bodyParent/pelvis/spine/chest/neck/head/eyelidLower_left
+        weight: 1
+      - path: Char_Player_Skeleton/ROOT/bodyParent/pelvis/spine/chest/neck/head/eyelidLower_left/eyelidLower_left_end
+        weight: 1
+      - path: Char_Player_Skeleton/ROOT/bodyParent/pelvis/spine/chest/neck/head/eyelidLower_right
+        weight: 1
+      - path: Char_Player_Skeleton/ROOT/bodyParent/pelvis/spine/chest/neck/head/eyelidLower_right/eyelidLower_right_end
+        weight: 1
+      - path: Char_Player_Skeleton/ROOT/bodyParent/pelvis/spine/chest/neck/head/eyelidUpper_left
+        weight: 1
+      - path: Char_Player_Skeleton/ROOT/bodyParent/pelvis/spine/chest/neck/head/eyelidUpper_left/eyelidUpper_left_end
+        weight: 1
+      - path: Char_Player_Skeleton/ROOT/bodyParent/pelvis/spine/chest/neck/head/eyelidUpper_right
+        weight: 1
+      - path: Char_Player_Skeleton/ROOT/bodyParent/pelvis/spine/chest/neck/head/eyelidUpper_right/eyelidUpper_right_end
+        weight: 1
+      - path: Char_Player_Skeleton/ROOT/bodyParent/pelvis/spine/chest/neck/head/jaw
+        weight: 1
+      - path: Char_Player_Skeleton/ROOT/bodyParent/pelvis/spine/chest/neck/head/jaw/teethLower
+        weight: 1
+      - path: Char_Player_Skeleton/ROOT/bodyParent/pelvis/spine/chest/neck/head/jaw/teethLower/teethLower_end
+        weight: 1
+      - path: Char_Player_Skeleton/ROOT/bodyParent/pelvis/spine/chest/neck/head/teethUpper
+        weight: 1
+      - path: Char_Player_Skeleton/ROOT/bodyParent/pelvis/spine/chest/neck/head/teethUpper/teethUpper_end
+        weight: 1
+      - path: Char_Player_Skeleton/ROOT/bodyParent/pelvis/tail1
+        weight: 1
+      - path: Char_Player_Skeleton/ROOT/bodyParent/pelvis/tail1/tail2
+        weight: 1
+      - path: Char_Player_Skeleton/ROOT/bodyParent/pelvis/tail1/tail2/tail3
+        weight: 1
+      - path: Char_Player_Skeleton/ROOT/bodyParent/pelvis/tail1/tail2/tail3/tail4
+        weight: 1
+      - path: Char_Player_Skeleton/ROOT/bodyParent/pelvis/tail1/tail2/tail3/tail4/tail4_end
+        weight: 1
+      - path: Char_Player_Skeleton/ROOT/bodyParent/pelvis/thigh_left
+        weight: 1
+      - path: Char_Player_Skeleton/ROOT/bodyParent/pelvis/thigh_left/shin_left
+        weight: 1
+      - path: Char_Player_Skeleton/ROOT/bodyParent/pelvis/thigh_left/shin_left/foot_left
+        weight: 1
+      - path: Char_Player_Skeleton/ROOT/bodyParent/pelvis/thigh_left/shin_left/foot_left/toe_left
+        weight: 1
+      - path: Char_Player_Skeleton/ROOT/bodyParent/pelvis/thigh_left/shin_left/foot_left/toe_left/toe_left_end
+        weight: 1
+      - path: Char_Player_Skeleton/ROOT/bodyParent/pelvis/thigh_right
+        weight: 1
+      - path: Char_Player_Skeleton/ROOT/bodyParent/pelvis/thigh_right/shin_right
+        weight: 1
+      - path: Char_Player_Skeleton/ROOT/bodyParent/pelvis/thigh_right/shin_right/foot_right
+        weight: 1
+      - path: Char_Player_Skeleton/ROOT/bodyParent/pelvis/thigh_right/shin_right/foot_right/toe_right
+        weight: 1
+      - path: Char_Player_Skeleton/ROOT/bodyParent/pelvis/thigh_right/shin_right/foot_right/toe_right/toe_right_end
+        weight: 1
+      - path: Char_Player_Skeleton/ROOT/footIK_left
+        weight: 1
+      - path: Char_Player_Skeleton/ROOT/footIK_left/footIK_left_end
+        weight: 1
+      - path: Char_Player_Skeleton/ROOT/footIK_right
+        weight: 1
+      - path: Char_Player_Skeleton/ROOT/footIK_right/footIK_right_end
+        weight: 1
+      - path: Char_Player_Skeleton/ROOT/handIK_left
+        weight: 1
+      - path: Char_Player_Skeleton/ROOT/handIK_left/handIK_left_end
+        weight: 1
+      - path: Char_Player_Skeleton/ROOT/handIK_right
+        weight: 1
+      - path: Char_Player_Skeleton/ROOT/handIK_right/handIK_right_end
+        weight: 1
+      - path: Char_Player_Skeleton/ROOT/legPole_left
+        weight: 1
+      - path: Char_Player_Skeleton/ROOT/legPole_left/legPole_left_end
+        weight: 1
+      - path: Char_Player_Skeleton/ROOT/legPole_right
+        weight: 1
+      - path: Char_Player_Skeleton/ROOT/legPole_right/legPole_right_end
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Char_Player_Skeleton|TestPose
+      takeName: Char_Player_Skeleton|TestPose
+      firstFrame: 0
+      lastFrame: 1
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Char_Player
+        weight: 1
+      - path: Char_Player_Skeleton
+        weight: 1
+      - path: Char_Player_Skeleton/ROOT
+        weight: 1
+      - path: Char_Player_Skeleton/ROOT/armPole_left
+        weight: 1
+      - path: Char_Player_Skeleton/ROOT/armPole_left/armPole_left_end
+        weight: 1
+      - path: Char_Player_Skeleton/ROOT/armPole_right
+        weight: 1
+      - path: Char_Player_Skeleton/ROOT/armPole_right/armPole_right_end
+        weight: 1
+      - path: Char_Player_Skeleton/ROOT/bodyParent
+        weight: 1
+      - path: Char_Player_Skeleton/ROOT/bodyParent/pelvis
+        weight: 1
+      - path: Char_Player_Skeleton/ROOT/bodyParent/pelvis/spine
+        weight: 1
+      - path: Char_Player_Skeleton/ROOT/bodyParent/pelvis/spine/chest
+        weight: 1
+      - path: Char_Player_Skeleton/ROOT/bodyParent/pelvis/spine/chest/clavicle_left
+        weight: 1
+      - path: Char_Player_Skeleton/ROOT/bodyParent/pelvis/spine/chest/clavicle_left/armUpper_left
+        weight: 1
+      - path: Char_Player_Skeleton/ROOT/bodyParent/pelvis/spine/chest/clavicle_left/armUpper_left/armLower_left
+        weight: 1
+      - path: Char_Player_Skeleton/ROOT/bodyParent/pelvis/spine/chest/clavicle_left/armUpper_left/armLower_left/armLowerTwist_left
+        weight: 1
+      - path: Char_Player_Skeleton/ROOT/bodyParent/pelvis/spine/chest/clavicle_left/armUpper_left/armLower_left/armLowerTwist_left/armLowerTwist_left_end
+        weight: 1
+      - path: Char_Player_Skeleton/ROOT/bodyParent/pelvis/spine/chest/clavicle_left/armUpper_left/armLower_left/hand_left
+        weight: 1
+      - path: Char_Player_Skeleton/ROOT/bodyParent/pelvis/spine/chest/clavicle_left/armUpper_left/armLower_left/hand_left/indexRoot_left
+        weight: 1
+      - path: Char_Player_Skeleton/ROOT/bodyParent/pelvis/spine/chest/clavicle_left/armUpper_left/armLower_left/hand_left/indexRoot_left/indexEnd_left
+        weight: 1
+      - path: Char_Player_Skeleton/ROOT/bodyParent/pelvis/spine/chest/clavicle_left/armUpper_left/armLower_left/hand_left/indexRoot_left/indexEnd_left/indexEnd_left_end
+        weight: 1
+      - path: Char_Player_Skeleton/ROOT/bodyParent/pelvis/spine/chest/clavicle_left/armUpper_left/armLower_left/hand_left/pinkyRoot_left
+        weight: 1
+      - path: Char_Player_Skeleton/ROOT/bodyParent/pelvis/spine/chest/clavicle_left/armUpper_left/armLower_left/hand_left/pinkyRoot_left/pinkyEnd_left
+        weight: 1
+      - path: Char_Player_Skeleton/ROOT/bodyParent/pelvis/spine/chest/clavicle_left/armUpper_left/armLower_left/hand_left/pinkyRoot_left/pinkyEnd_left/pinkyEnd_left_end
+        weight: 1
+      - path: Char_Player_Skeleton/ROOT/bodyParent/pelvis/spine/chest/clavicle_left/armUpper_left/armLower_left/hand_left/thumbRoot_left
+        weight: 1
+      - path: Char_Player_Skeleton/ROOT/bodyParent/pelvis/spine/chest/clavicle_left/armUpper_left/armLower_left/hand_left/thumbRoot_left/thumbEnd_left
+        weight: 1
+      - path: Char_Player_Skeleton/ROOT/bodyParent/pelvis/spine/chest/clavicle_left/armUpper_left/armLower_left/hand_left/thumbRoot_left/thumbEnd_left/thumbEnd_left_end
+        weight: 1
+      - path: Char_Player_Skeleton/ROOT/bodyParent/pelvis/spine/chest/clavicle_left/armUpper_left/armUpperTwist_left
+        weight: 1
+      - path: Char_Player_Skeleton/ROOT/bodyParent/pelvis/spine/chest/clavicle_left/armUpper_left/armUpperTwist_left/armUpperTwist_left_end
+        weight: 1
+      - path: Char_Player_Skeleton/ROOT/bodyParent/pelvis/spine/chest/clavicle_right
+        weight: 1
+      - path: Char_Player_Skeleton/ROOT/bodyParent/pelvis/spine/chest/clavicle_right/armUpper_right
+        weight: 1
+      - path: Char_Player_Skeleton/ROOT/bodyParent/pelvis/spine/chest/clavicle_right/armUpper_right/armLower_right
+        weight: 1
+      - path: Char_Player_Skeleton/ROOT/bodyParent/pelvis/spine/chest/clavicle_right/armUpper_right/armLower_right/armLowerTwist_right
+        weight: 1
+      - path: Char_Player_Skeleton/ROOT/bodyParent/pelvis/spine/chest/clavicle_right/armUpper_right/armLower_right/armLowerTwist_right/armLowerTwist_right_end
+        weight: 1
+      - path: Char_Player_Skeleton/ROOT/bodyParent/pelvis/spine/chest/clavicle_right/armUpper_right/armLower_right/hand_right
+        weight: 1
+      - path: Char_Player_Skeleton/ROOT/bodyParent/pelvis/spine/chest/clavicle_right/armUpper_right/armLower_right/hand_right/indexRoot_right
+        weight: 1
+      - path: Char_Player_Skeleton/ROOT/bodyParent/pelvis/spine/chest/clavicle_right/armUpper_right/armLower_right/hand_right/indexRoot_right/indexEnd_right
+        weight: 1
+      - path: Char_Player_Skeleton/ROOT/bodyParent/pelvis/spine/chest/clavicle_right/armUpper_right/armLower_right/hand_right/indexRoot_right/indexEnd_right/indexEnd_right_end
+        weight: 1
+      - path: Char_Player_Skeleton/ROOT/bodyParent/pelvis/spine/chest/clavicle_right/armUpper_right/armLower_right/hand_right/pinkyRoot_right
+        weight: 1
+      - path: Char_Player_Skeleton/ROOT/bodyParent/pelvis/spine/chest/clavicle_right/armUpper_right/armLower_right/hand_right/pinkyRoot_right/pinkyEnd_right
+        weight: 1
+      - path: Char_Player_Skeleton/ROOT/bodyParent/pelvis/spine/chest/clavicle_right/armUpper_right/armLower_right/hand_right/pinkyRoot_right/pinkyEnd_right/pinkyEnd_right_end
+        weight: 1
+      - path: Char_Player_Skeleton/ROOT/bodyParent/pelvis/spine/chest/clavicle_right/armUpper_right/armLower_right/hand_right/thumbRoot_right
+        weight: 1
+      - path: Char_Player_Skeleton/ROOT/bodyParent/pelvis/spine/chest/clavicle_right/armUpper_right/armLower_right/hand_right/thumbRoot_right/thumbEnd_right
+        weight: 1
+      - path: Char_Player_Skeleton/ROOT/bodyParent/pelvis/spine/chest/clavicle_right/armUpper_right/armLower_right/hand_right/thumbRoot_right/thumbEnd_right/thumbEnd_right_end
+        weight: 1
+      - path: Char_Player_Skeleton/ROOT/bodyParent/pelvis/spine/chest/clavicle_right/armUpper_right/armUpperTwist_right
+        weight: 1
+      - path: Char_Player_Skeleton/ROOT/bodyParent/pelvis/spine/chest/clavicle_right/armUpper_right/armUpperTwist_right/armUpperTwist_right_end
+        weight: 1
+      - path: Char_Player_Skeleton/ROOT/bodyParent/pelvis/spine/chest/neck
+        weight: 1
+      - path: Char_Player_Skeleton/ROOT/bodyParent/pelvis/spine/chest/neck/head
+        weight: 1
+      - path: Char_Player_Skeleton/ROOT/bodyParent/pelvis/spine/chest/neck/head/eye_left
+        weight: 1
+      - path: Char_Player_Skeleton/ROOT/bodyParent/pelvis/spine/chest/neck/head/eye_left/eye_left_end
+        weight: 1
+      - path: Char_Player_Skeleton/ROOT/bodyParent/pelvis/spine/chest/neck/head/eye_right
+        weight: 1
+      - path: Char_Player_Skeleton/ROOT/bodyParent/pelvis/spine/chest/neck/head/eye_right/eye_right_end
+        weight: 1
+      - path: Char_Player_Skeleton/ROOT/bodyParent/pelvis/spine/chest/neck/head/eyebrowLower_left
+        weight: 1
+      - path: Char_Player_Skeleton/ROOT/bodyParent/pelvis/spine/chest/neck/head/eyebrowLower_left/eyebrowLower_left_end
+        weight: 1
+      - path: Char_Player_Skeleton/ROOT/bodyParent/pelvis/spine/chest/neck/head/eyebrowLower_right
+        weight: 1
+      - path: Char_Player_Skeleton/ROOT/bodyParent/pelvis/spine/chest/neck/head/eyebrowLower_right/eyebrowLower_right_end
+        weight: 1
+      - path: Char_Player_Skeleton/ROOT/bodyParent/pelvis/spine/chest/neck/head/eyebrowUpper_left
+        weight: 1
+      - path: Char_Player_Skeleton/ROOT/bodyParent/pelvis/spine/chest/neck/head/eyebrowUpper_left/eyebrowUpper_left_end
+        weight: 1
+      - path: Char_Player_Skeleton/ROOT/bodyParent/pelvis/spine/chest/neck/head/eyebrowUpper_right
+        weight: 1
+      - path: Char_Player_Skeleton/ROOT/bodyParent/pelvis/spine/chest/neck/head/eyebrowUpper_right/eyebrowUpper_right_end
+        weight: 1
+      - path: Char_Player_Skeleton/ROOT/bodyParent/pelvis/spine/chest/neck/head/eyelidLower_left
+        weight: 1
+      - path: Char_Player_Skeleton/ROOT/bodyParent/pelvis/spine/chest/neck/head/eyelidLower_left/eyelidLower_left_end
+        weight: 1
+      - path: Char_Player_Skeleton/ROOT/bodyParent/pelvis/spine/chest/neck/head/eyelidLower_right
+        weight: 1
+      - path: Char_Player_Skeleton/ROOT/bodyParent/pelvis/spine/chest/neck/head/eyelidLower_right/eyelidLower_right_end
+        weight: 1
+      - path: Char_Player_Skeleton/ROOT/bodyParent/pelvis/spine/chest/neck/head/eyelidUpper_left
+        weight: 1
+      - path: Char_Player_Skeleton/ROOT/bodyParent/pelvis/spine/chest/neck/head/eyelidUpper_left/eyelidUpper_left_end
+        weight: 1
+      - path: Char_Player_Skeleton/ROOT/bodyParent/pelvis/spine/chest/neck/head/eyelidUpper_right
+        weight: 1
+      - path: Char_Player_Skeleton/ROOT/bodyParent/pelvis/spine/chest/neck/head/eyelidUpper_right/eyelidUpper_right_end
+        weight: 1
+      - path: Char_Player_Skeleton/ROOT/bodyParent/pelvis/spine/chest/neck/head/jaw
+        weight: 1
+      - path: Char_Player_Skeleton/ROOT/bodyParent/pelvis/spine/chest/neck/head/jaw/teethLower
+        weight: 1
+      - path: Char_Player_Skeleton/ROOT/bodyParent/pelvis/spine/chest/neck/head/jaw/teethLower/teethLower_end
+        weight: 1
+      - path: Char_Player_Skeleton/ROOT/bodyParent/pelvis/spine/chest/neck/head/teethUpper
+        weight: 1
+      - path: Char_Player_Skeleton/ROOT/bodyParent/pelvis/spine/chest/neck/head/teethUpper/teethUpper_end
+        weight: 1
+      - path: Char_Player_Skeleton/ROOT/bodyParent/pelvis/tail1
+        weight: 1
+      - path: Char_Player_Skeleton/ROOT/bodyParent/pelvis/tail1/tail2
+        weight: 1
+      - path: Char_Player_Skeleton/ROOT/bodyParent/pelvis/tail1/tail2/tail3
+        weight: 1
+      - path: Char_Player_Skeleton/ROOT/bodyParent/pelvis/tail1/tail2/tail3/tail4
+        weight: 1
+      - path: Char_Player_Skeleton/ROOT/bodyParent/pelvis/tail1/tail2/tail3/tail4/tail4_end
+        weight: 1
+      - path: Char_Player_Skeleton/ROOT/bodyParent/pelvis/thigh_left
+        weight: 1
+      - path: Char_Player_Skeleton/ROOT/bodyParent/pelvis/thigh_left/shin_left
+        weight: 1
+      - path: Char_Player_Skeleton/ROOT/bodyParent/pelvis/thigh_left/shin_left/foot_left
+        weight: 1
+      - path: Char_Player_Skeleton/ROOT/bodyParent/pelvis/thigh_left/shin_left/foot_left/toe_left
+        weight: 1
+      - path: Char_Player_Skeleton/ROOT/bodyParent/pelvis/thigh_left/shin_left/foot_left/toe_left/toe_left_end
+        weight: 1
+      - path: Char_Player_Skeleton/ROOT/bodyParent/pelvis/thigh_right
+        weight: 1
+      - path: Char_Player_Skeleton/ROOT/bodyParent/pelvis/thigh_right/shin_right
+        weight: 1
+      - path: Char_Player_Skeleton/ROOT/bodyParent/pelvis/thigh_right/shin_right/foot_right
+        weight: 1
+      - path: Char_Player_Skeleton/ROOT/bodyParent/pelvis/thigh_right/shin_right/foot_right/toe_right
+        weight: 1
+      - path: Char_Player_Skeleton/ROOT/bodyParent/pelvis/thigh_right/shin_right/foot_right/toe_right/toe_right_end
+        weight: 1
+      - path: Char_Player_Skeleton/ROOT/footIK_left
+        weight: 1
+      - path: Char_Player_Skeleton/ROOT/footIK_left/footIK_left_end
+        weight: 1
+      - path: Char_Player_Skeleton/ROOT/footIK_right
+        weight: 1
+      - path: Char_Player_Skeleton/ROOT/footIK_right/footIK_right_end
+        weight: 1
+      - path: Char_Player_Skeleton/ROOT/handIK_left
+        weight: 1
+      - path: Char_Player_Skeleton/ROOT/handIK_left/handIK_left_end
+        weight: 1
+      - path: Char_Player_Skeleton/ROOT/handIK_right
+        weight: 1
+      - path: Char_Player_Skeleton/ROOT/handIK_right/handIK_right_end
+        weight: 1
+      - path: Char_Player_Skeleton/ROOT/legPole_left
+        weight: 1
+      - path: Char_Player_Skeleton/ROOT/legPole_left/legPole_left_end
+        weight: 1
+      - path: Char_Player_Skeleton/ROOT/legPole_right
+        weight: 1
+      - path: Char_Player_Skeleton/ROOT/legPole_right/legPole_right_end
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 0
+    importBlendShapes: 1
+    importCameras: 0
+    importLights: 0
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 0
+    preserveHierarchy: 0
+    indexFormat: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 0
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

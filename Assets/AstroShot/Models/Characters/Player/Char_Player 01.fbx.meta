@@ -1,0 +1,734 @@
+fileFormatVersion: 2
+guid: e5b2ed0d3e749e9499eaddd2c0f0dd66
+timeCreated: 1504314932
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: armLower_left
+    100002: armLower_right
+    100004: armUpper_left
+    100006: armUpper_right
+    100008: bodyParent
+    100010: Char_Player
+    100012: //RootNode
+    100014: Char_Player_Skeleton
+    100016: chest
+    100018: clavicle_left
+    100020: clavicle_right
+    100022: foot_left
+    100024: foot_left_end
+    100026: foot_right
+    100028: foot_right_end
+    100030: hand_left
+    100032: hand_left_end
+    100034: hand_right
+    100036: hand_right_end
+    100038: head
+    100040: head_end
+    100042: neck
+    100044: pelvis
+    100046: ROOT
+    100048: shin_left
+    100050: shin_right
+    100052: spine
+    100054: tail1
+    100056: tail2
+    100058: tail3
+    100060: tail4
+    100062: tail4_end
+    100064: thigh_left
+    100066: thigh_right
+    400000: armLower_left
+    400002: armLower_right
+    400004: armUpper_left
+    400006: armUpper_right
+    400008: bodyParent
+    400010: Char_Player
+    400012: //RootNode
+    400014: Char_Player_Skeleton
+    400016: chest
+    400018: clavicle_left
+    400020: clavicle_right
+    400022: foot_left
+    400024: foot_left_end
+    400026: foot_right
+    400028: foot_right_end
+    400030: hand_left
+    400032: hand_left_end
+    400034: hand_right
+    400036: hand_right_end
+    400038: head
+    400040: head_end
+    400042: neck
+    400044: pelvis
+    400046: ROOT
+    400048: shin_left
+    400050: shin_right
+    400052: spine
+    400054: tail1
+    400056: tail2
+    400058: tail3
+    400060: tail4
+    400062: tail4_end
+    400064: thigh_left
+    400066: thigh_right
+    4300000: Char_Player
+    7400000: Char_Player_Skeleton|Idle
+    7400002: Char_Player_Skeleton|Reptilo_Run
+    7400004: Char_Player_Skeleton|Roll
+    7400006: Char_Player_Skeleton|Run
+    7400008: Char_Player_Skeleton|Jump
+    7400010: Char_Player_Skeleton|CrouchWalk
+    7400012: Char_Player_Skeleton|IdleStand
+    7400014: Char_Player_Skeleton|RunStand
+    7400016: Char_Player_Skeleton|RunCrouch
+    7400018: Char_Player_Skeleton|IdleCrouch
+    9500000: //RootNode
+    13700000: Char_Player
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Char_Player_Skeleton|IdleStand
+      takeName: Char_Player_Skeleton|IdleStand
+      firstFrame: 0
+      lastFrame: 60
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 1
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Char_Player
+        weight: 1
+      - path: Char_Player_Skeleton
+        weight: 1
+      - path: Char_Player_Skeleton/ROOT
+        weight: 1
+      - path: Char_Player_Skeleton/ROOT/bodyParent
+        weight: 1
+      - path: Char_Player_Skeleton/ROOT/bodyParent/pelvis
+        weight: 1
+      - path: Char_Player_Skeleton/ROOT/bodyParent/pelvis/spine
+        weight: 1
+      - path: Char_Player_Skeleton/ROOT/bodyParent/pelvis/spine/chest
+        weight: 1
+      - path: Char_Player_Skeleton/ROOT/bodyParent/pelvis/spine/chest/clavicle_left
+        weight: 1
+      - path: Char_Player_Skeleton/ROOT/bodyParent/pelvis/spine/chest/clavicle_left/armUpper_left
+        weight: 1
+      - path: Char_Player_Skeleton/ROOT/bodyParent/pelvis/spine/chest/clavicle_left/armUpper_left/armLower_left
+        weight: 1
+      - path: Char_Player_Skeleton/ROOT/bodyParent/pelvis/spine/chest/clavicle_left/armUpper_left/armLower_left/hand_left
+        weight: 1
+      - path: Char_Player_Skeleton/ROOT/bodyParent/pelvis/spine/chest/clavicle_left/armUpper_left/armLower_left/hand_left/hand_left_end
+        weight: 1
+      - path: Char_Player_Skeleton/ROOT/bodyParent/pelvis/spine/chest/clavicle_right
+        weight: 1
+      - path: Char_Player_Skeleton/ROOT/bodyParent/pelvis/spine/chest/clavicle_right/armUpper_right
+        weight: 1
+      - path: Char_Player_Skeleton/ROOT/bodyParent/pelvis/spine/chest/clavicle_right/armUpper_right/armLower_right
+        weight: 1
+      - path: Char_Player_Skeleton/ROOT/bodyParent/pelvis/spine/chest/clavicle_right/armUpper_right/armLower_right/hand_right
+        weight: 1
+      - path: Char_Player_Skeleton/ROOT/bodyParent/pelvis/spine/chest/clavicle_right/armUpper_right/armLower_right/hand_right/hand_right_end
+        weight: 1
+      - path: Char_Player_Skeleton/ROOT/bodyParent/pelvis/spine/chest/neck
+        weight: 1
+      - path: Char_Player_Skeleton/ROOT/bodyParent/pelvis/spine/chest/neck/head
+        weight: 1
+      - path: Char_Player_Skeleton/ROOT/bodyParent/pelvis/spine/chest/neck/head/head_end
+        weight: 1
+      - path: Char_Player_Skeleton/ROOT/bodyParent/pelvis/tail1
+        weight: 1
+      - path: Char_Player_Skeleton/ROOT/bodyParent/pelvis/tail1/tail2
+        weight: 1
+      - path: Char_Player_Skeleton/ROOT/bodyParent/pelvis/tail1/tail2/tail3
+        weight: 1
+      - path: Char_Player_Skeleton/ROOT/bodyParent/pelvis/tail1/tail2/tail3/tail4
+        weight: 1
+      - path: Char_Player_Skeleton/ROOT/bodyParent/pelvis/tail1/tail2/tail3/tail4/tail4_end
+        weight: 1
+      - path: Char_Player_Skeleton/ROOT/bodyParent/pelvis/thigh_left
+        weight: 1
+      - path: Char_Player_Skeleton/ROOT/bodyParent/pelvis/thigh_left/shin_left
+        weight: 1
+      - path: Char_Player_Skeleton/ROOT/bodyParent/pelvis/thigh_left/shin_left/foot_left
+        weight: 1
+      - path: Char_Player_Skeleton/ROOT/bodyParent/pelvis/thigh_left/shin_left/foot_left/foot_left_end
+        weight: 1
+      - path: Char_Player_Skeleton/ROOT/bodyParent/pelvis/thigh_right
+        weight: 1
+      - path: Char_Player_Skeleton/ROOT/bodyParent/pelvis/thigh_right/shin_right
+        weight: 1
+      - path: Char_Player_Skeleton/ROOT/bodyParent/pelvis/thigh_right/shin_right/foot_right
+        weight: 1
+      - path: Char_Player_Skeleton/ROOT/bodyParent/pelvis/thigh_right/shin_right/foot_right/foot_right_end
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Char_Player_Skeleton|Jump
+      takeName: Char_Player_Skeleton|Jump
+      firstFrame: 0
+      lastFrame: 1
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 1
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Char_Player
+        weight: 1
+      - path: Char_Player_Skeleton
+        weight: 1
+      - path: Char_Player_Skeleton/ROOT
+        weight: 1
+      - path: Char_Player_Skeleton/ROOT/bodyParent
+        weight: 1
+      - path: Char_Player_Skeleton/ROOT/bodyParent/pelvis
+        weight: 1
+      - path: Char_Player_Skeleton/ROOT/bodyParent/pelvis/spine
+        weight: 1
+      - path: Char_Player_Skeleton/ROOT/bodyParent/pelvis/spine/chest
+        weight: 1
+      - path: Char_Player_Skeleton/ROOT/bodyParent/pelvis/spine/chest/clavicle_left
+        weight: 1
+      - path: Char_Player_Skeleton/ROOT/bodyParent/pelvis/spine/chest/clavicle_left/armUpper_left
+        weight: 1
+      - path: Char_Player_Skeleton/ROOT/bodyParent/pelvis/spine/chest/clavicle_left/armUpper_left/armLower_left
+        weight: 1
+      - path: Char_Player_Skeleton/ROOT/bodyParent/pelvis/spine/chest/clavicle_left/armUpper_left/armLower_left/hand_left
+        weight: 1
+      - path: Char_Player_Skeleton/ROOT/bodyParent/pelvis/spine/chest/clavicle_left/armUpper_left/armLower_left/hand_left/hand_left_end
+        weight: 1
+      - path: Char_Player_Skeleton/ROOT/bodyParent/pelvis/spine/chest/clavicle_right
+        weight: 1
+      - path: Char_Player_Skeleton/ROOT/bodyParent/pelvis/spine/chest/clavicle_right/armUpper_right
+        weight: 1
+      - path: Char_Player_Skeleton/ROOT/bodyParent/pelvis/spine/chest/clavicle_right/armUpper_right/armLower_right
+        weight: 1
+      - path: Char_Player_Skeleton/ROOT/bodyParent/pelvis/spine/chest/clavicle_right/armUpper_right/armLower_right/hand_right
+        weight: 1
+      - path: Char_Player_Skeleton/ROOT/bodyParent/pelvis/spine/chest/clavicle_right/armUpper_right/armLower_right/hand_right/hand_right_end
+        weight: 1
+      - path: Char_Player_Skeleton/ROOT/bodyParent/pelvis/spine/chest/neck
+        weight: 1
+      - path: Char_Player_Skeleton/ROOT/bodyParent/pelvis/spine/chest/neck/head
+        weight: 1
+      - path: Char_Player_Skeleton/ROOT/bodyParent/pelvis/spine/chest/neck/head/head_end
+        weight: 1
+      - path: Char_Player_Skeleton/ROOT/bodyParent/pelvis/tail1
+        weight: 1
+      - path: Char_Player_Skeleton/ROOT/bodyParent/pelvis/tail1/tail2
+        weight: 1
+      - path: Char_Player_Skeleton/ROOT/bodyParent/pelvis/tail1/tail2/tail3
+        weight: 1
+      - path: Char_Player_Skeleton/ROOT/bodyParent/pelvis/tail1/tail2/tail3/tail4
+        weight: 1
+      - path: Char_Player_Skeleton/ROOT/bodyParent/pelvis/tail1/tail2/tail3/tail4/tail4_end
+        weight: 1
+      - path: Char_Player_Skeleton/ROOT/bodyParent/pelvis/thigh_left
+        weight: 1
+      - path: Char_Player_Skeleton/ROOT/bodyParent/pelvis/thigh_left/shin_left
+        weight: 1
+      - path: Char_Player_Skeleton/ROOT/bodyParent/pelvis/thigh_left/shin_left/foot_left
+        weight: 1
+      - path: Char_Player_Skeleton/ROOT/bodyParent/pelvis/thigh_left/shin_left/foot_left/foot_left_end
+        weight: 1
+      - path: Char_Player_Skeleton/ROOT/bodyParent/pelvis/thigh_right
+        weight: 1
+      - path: Char_Player_Skeleton/ROOT/bodyParent/pelvis/thigh_right/shin_right
+        weight: 1
+      - path: Char_Player_Skeleton/ROOT/bodyParent/pelvis/thigh_right/shin_right/foot_right
+        weight: 1
+      - path: Char_Player_Skeleton/ROOT/bodyParent/pelvis/thigh_right/shin_right/foot_right/foot_right_end
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Char_Player_Skeleton|Roll
+      takeName: Char_Player_Skeleton|Roll
+      firstFrame: 0
+      lastFrame: 60
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 1
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Char_Player
+        weight: 1
+      - path: Char_Player_Skeleton
+        weight: 1
+      - path: Char_Player_Skeleton/ROOT
+        weight: 1
+      - path: Char_Player_Skeleton/ROOT/bodyParent
+        weight: 1
+      - path: Char_Player_Skeleton/ROOT/bodyParent/pelvis
+        weight: 1
+      - path: Char_Player_Skeleton/ROOT/bodyParent/pelvis/spine
+        weight: 1
+      - path: Char_Player_Skeleton/ROOT/bodyParent/pelvis/spine/chest
+        weight: 1
+      - path: Char_Player_Skeleton/ROOT/bodyParent/pelvis/spine/chest/clavicle_left
+        weight: 1
+      - path: Char_Player_Skeleton/ROOT/bodyParent/pelvis/spine/chest/clavicle_left/armUpper_left
+        weight: 1
+      - path: Char_Player_Skeleton/ROOT/bodyParent/pelvis/spine/chest/clavicle_left/armUpper_left/armLower_left
+        weight: 1
+      - path: Char_Player_Skeleton/ROOT/bodyParent/pelvis/spine/chest/clavicle_left/armUpper_left/armLower_left/hand_left
+        weight: 1
+      - path: Char_Player_Skeleton/ROOT/bodyParent/pelvis/spine/chest/clavicle_left/armUpper_left/armLower_left/hand_left/hand_left_end
+        weight: 1
+      - path: Char_Player_Skeleton/ROOT/bodyParent/pelvis/spine/chest/clavicle_right
+        weight: 1
+      - path: Char_Player_Skeleton/ROOT/bodyParent/pelvis/spine/chest/clavicle_right/armUpper_right
+        weight: 1
+      - path: Char_Player_Skeleton/ROOT/bodyParent/pelvis/spine/chest/clavicle_right/armUpper_right/armLower_right
+        weight: 1
+      - path: Char_Player_Skeleton/ROOT/bodyParent/pelvis/spine/chest/clavicle_right/armUpper_right/armLower_right/hand_right
+        weight: 1
+      - path: Char_Player_Skeleton/ROOT/bodyParent/pelvis/spine/chest/clavicle_right/armUpper_right/armLower_right/hand_right/hand_right_end
+        weight: 1
+      - path: Char_Player_Skeleton/ROOT/bodyParent/pelvis/spine/chest/neck
+        weight: 1
+      - path: Char_Player_Skeleton/ROOT/bodyParent/pelvis/spine/chest/neck/head
+        weight: 1
+      - path: Char_Player_Skeleton/ROOT/bodyParent/pelvis/spine/chest/neck/head/head_end
+        weight: 1
+      - path: Char_Player_Skeleton/ROOT/bodyParent/pelvis/tail1
+        weight: 1
+      - path: Char_Player_Skeleton/ROOT/bodyParent/pelvis/tail1/tail2
+        weight: 1
+      - path: Char_Player_Skeleton/ROOT/bodyParent/pelvis/tail1/tail2/tail3
+        weight: 1
+      - path: Char_Player_Skeleton/ROOT/bodyParent/pelvis/tail1/tail2/tail3/tail4
+        weight: 1
+      - path: Char_Player_Skeleton/ROOT/bodyParent/pelvis/tail1/tail2/tail3/tail4/tail4_end
+        weight: 1
+      - path: Char_Player_Skeleton/ROOT/bodyParent/pelvis/thigh_left
+        weight: 1
+      - path: Char_Player_Skeleton/ROOT/bodyParent/pelvis/thigh_left/shin_left
+        weight: 1
+      - path: Char_Player_Skeleton/ROOT/bodyParent/pelvis/thigh_left/shin_left/foot_left
+        weight: 1
+      - path: Char_Player_Skeleton/ROOT/bodyParent/pelvis/thigh_left/shin_left/foot_left/foot_left_end
+        weight: 1
+      - path: Char_Player_Skeleton/ROOT/bodyParent/pelvis/thigh_right
+        weight: 1
+      - path: Char_Player_Skeleton/ROOT/bodyParent/pelvis/thigh_right/shin_right
+        weight: 1
+      - path: Char_Player_Skeleton/ROOT/bodyParent/pelvis/thigh_right/shin_right/foot_right
+        weight: 1
+      - path: Char_Player_Skeleton/ROOT/bodyParent/pelvis/thigh_right/shin_right/foot_right/foot_right_end
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Char_Player_Skeleton|RunStand
+      takeName: Char_Player_Skeleton|RunStand
+      firstFrame: 0
+      lastFrame: 60
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 1
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Char_Player
+        weight: 1
+      - path: Char_Player_Skeleton
+        weight: 1
+      - path: Char_Player_Skeleton/ROOT
+        weight: 1
+      - path: Char_Player_Skeleton/ROOT/bodyParent
+        weight: 1
+      - path: Char_Player_Skeleton/ROOT/bodyParent/pelvis
+        weight: 1
+      - path: Char_Player_Skeleton/ROOT/bodyParent/pelvis/spine
+        weight: 1
+      - path: Char_Player_Skeleton/ROOT/bodyParent/pelvis/spine/chest
+        weight: 1
+      - path: Char_Player_Skeleton/ROOT/bodyParent/pelvis/spine/chest/clavicle_left
+        weight: 1
+      - path: Char_Player_Skeleton/ROOT/bodyParent/pelvis/spine/chest/clavicle_left/armUpper_left
+        weight: 1
+      - path: Char_Player_Skeleton/ROOT/bodyParent/pelvis/spine/chest/clavicle_left/armUpper_left/armLower_left
+        weight: 1
+      - path: Char_Player_Skeleton/ROOT/bodyParent/pelvis/spine/chest/clavicle_left/armUpper_left/armLower_left/hand_left
+        weight: 1
+      - path: Char_Player_Skeleton/ROOT/bodyParent/pelvis/spine/chest/clavicle_left/armUpper_left/armLower_left/hand_left/hand_left_end
+        weight: 1
+      - path: Char_Player_Skeleton/ROOT/bodyParent/pelvis/spine/chest/clavicle_right
+        weight: 1
+      - path: Char_Player_Skeleton/ROOT/bodyParent/pelvis/spine/chest/clavicle_right/armUpper_right
+        weight: 1
+      - path: Char_Player_Skeleton/ROOT/bodyParent/pelvis/spine/chest/clavicle_right/armUpper_right/armLower_right
+        weight: 1
+      - path: Char_Player_Skeleton/ROOT/bodyParent/pelvis/spine/chest/clavicle_right/armUpper_right/armLower_right/hand_right
+        weight: 1
+      - path: Char_Player_Skeleton/ROOT/bodyParent/pelvis/spine/chest/clavicle_right/armUpper_right/armLower_right/hand_right/hand_right_end
+        weight: 1
+      - path: Char_Player_Skeleton/ROOT/bodyParent/pelvis/spine/chest/neck
+        weight: 1
+      - path: Char_Player_Skeleton/ROOT/bodyParent/pelvis/spine/chest/neck/head
+        weight: 1
+      - path: Char_Player_Skeleton/ROOT/bodyParent/pelvis/spine/chest/neck/head/head_end
+        weight: 1
+      - path: Char_Player_Skeleton/ROOT/bodyParent/pelvis/tail1
+        weight: 1
+      - path: Char_Player_Skeleton/ROOT/bodyParent/pelvis/tail1/tail2
+        weight: 1
+      - path: Char_Player_Skeleton/ROOT/bodyParent/pelvis/tail1/tail2/tail3
+        weight: 1
+      - path: Char_Player_Skeleton/ROOT/bodyParent/pelvis/tail1/tail2/tail3/tail4
+        weight: 1
+      - path: Char_Player_Skeleton/ROOT/bodyParent/pelvis/tail1/tail2/tail3/tail4/tail4_end
+        weight: 1
+      - path: Char_Player_Skeleton/ROOT/bodyParent/pelvis/thigh_left
+        weight: 1
+      - path: Char_Player_Skeleton/ROOT/bodyParent/pelvis/thigh_left/shin_left
+        weight: 1
+      - path: Char_Player_Skeleton/ROOT/bodyParent/pelvis/thigh_left/shin_left/foot_left
+        weight: 1
+      - path: Char_Player_Skeleton/ROOT/bodyParent/pelvis/thigh_left/shin_left/foot_left/foot_left_end
+        weight: 1
+      - path: Char_Player_Skeleton/ROOT/bodyParent/pelvis/thigh_right
+        weight: 1
+      - path: Char_Player_Skeleton/ROOT/bodyParent/pelvis/thigh_right/shin_right
+        weight: 1
+      - path: Char_Player_Skeleton/ROOT/bodyParent/pelvis/thigh_right/shin_right/foot_right
+        weight: 1
+      - path: Char_Player_Skeleton/ROOT/bodyParent/pelvis/thigh_right/shin_right/foot_right/foot_right_end
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Char_Player_Skeleton|RunCrouch
+      takeName: Char_Player_Skeleton|RunCrouch
+      firstFrame: 0
+      lastFrame: 60
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 1
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Char_Player
+        weight: 1
+      - path: Char_Player_Skeleton
+        weight: 1
+      - path: Char_Player_Skeleton/ROOT
+        weight: 1
+      - path: Char_Player_Skeleton/ROOT/bodyParent
+        weight: 1
+      - path: Char_Player_Skeleton/ROOT/bodyParent/pelvis
+        weight: 1
+      - path: Char_Player_Skeleton/ROOT/bodyParent/pelvis/spine
+        weight: 1
+      - path: Char_Player_Skeleton/ROOT/bodyParent/pelvis/spine/chest
+        weight: 1
+      - path: Char_Player_Skeleton/ROOT/bodyParent/pelvis/spine/chest/clavicle_left
+        weight: 1
+      - path: Char_Player_Skeleton/ROOT/bodyParent/pelvis/spine/chest/clavicle_left/armUpper_left
+        weight: 1
+      - path: Char_Player_Skeleton/ROOT/bodyParent/pelvis/spine/chest/clavicle_left/armUpper_left/armLower_left
+        weight: 1
+      - path: Char_Player_Skeleton/ROOT/bodyParent/pelvis/spine/chest/clavicle_left/armUpper_left/armLower_left/hand_left
+        weight: 1
+      - path: Char_Player_Skeleton/ROOT/bodyParent/pelvis/spine/chest/clavicle_left/armUpper_left/armLower_left/hand_left/hand_left_end
+        weight: 1
+      - path: Char_Player_Skeleton/ROOT/bodyParent/pelvis/spine/chest/clavicle_right
+        weight: 1
+      - path: Char_Player_Skeleton/ROOT/bodyParent/pelvis/spine/chest/clavicle_right/armUpper_right
+        weight: 1
+      - path: Char_Player_Skeleton/ROOT/bodyParent/pelvis/spine/chest/clavicle_right/armUpper_right/armLower_right
+        weight: 1
+      - path: Char_Player_Skeleton/ROOT/bodyParent/pelvis/spine/chest/clavicle_right/armUpper_right/armLower_right/hand_right
+        weight: 1
+      - path: Char_Player_Skeleton/ROOT/bodyParent/pelvis/spine/chest/clavicle_right/armUpper_right/armLower_right/hand_right/hand_right_end
+        weight: 1
+      - path: Char_Player_Skeleton/ROOT/bodyParent/pelvis/spine/chest/neck
+        weight: 1
+      - path: Char_Player_Skeleton/ROOT/bodyParent/pelvis/spine/chest/neck/head
+        weight: 1
+      - path: Char_Player_Skeleton/ROOT/bodyParent/pelvis/spine/chest/neck/head/head_end
+        weight: 1
+      - path: Char_Player_Skeleton/ROOT/bodyParent/pelvis/tail1
+        weight: 1
+      - path: Char_Player_Skeleton/ROOT/bodyParent/pelvis/tail1/tail2
+        weight: 1
+      - path: Char_Player_Skeleton/ROOT/bodyParent/pelvis/tail1/tail2/tail3
+        weight: 1
+      - path: Char_Player_Skeleton/ROOT/bodyParent/pelvis/tail1/tail2/tail3/tail4
+        weight: 1
+      - path: Char_Player_Skeleton/ROOT/bodyParent/pelvis/tail1/tail2/tail3/tail4/tail4_end
+        weight: 1
+      - path: Char_Player_Skeleton/ROOT/bodyParent/pelvis/thigh_left
+        weight: 1
+      - path: Char_Player_Skeleton/ROOT/bodyParent/pelvis/thigh_left/shin_left
+        weight: 1
+      - path: Char_Player_Skeleton/ROOT/bodyParent/pelvis/thigh_left/shin_left/foot_left
+        weight: 1
+      - path: Char_Player_Skeleton/ROOT/bodyParent/pelvis/thigh_left/shin_left/foot_left/foot_left_end
+        weight: 1
+      - path: Char_Player_Skeleton/ROOT/bodyParent/pelvis/thigh_right
+        weight: 1
+      - path: Char_Player_Skeleton/ROOT/bodyParent/pelvis/thigh_right/shin_right
+        weight: 1
+      - path: Char_Player_Skeleton/ROOT/bodyParent/pelvis/thigh_right/shin_right/foot_right
+        weight: 1
+      - path: Char_Player_Skeleton/ROOT/bodyParent/pelvis/thigh_right/shin_right/foot_right/foot_right_end
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Char_Player_Skeleton|IdleCrouch
+      takeName: Char_Player_Skeleton|IdleCrouch
+      firstFrame: 0
+      lastFrame: 60
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 1
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Char_Player
+        weight: 1
+      - path: Char_Player_Skeleton
+        weight: 1
+      - path: Char_Player_Skeleton/ROOT
+        weight: 1
+      - path: Char_Player_Skeleton/ROOT/bodyParent
+        weight: 1
+      - path: Char_Player_Skeleton/ROOT/bodyParent/pelvis
+        weight: 1
+      - path: Char_Player_Skeleton/ROOT/bodyParent/pelvis/spine
+        weight: 1
+      - path: Char_Player_Skeleton/ROOT/bodyParent/pelvis/spine/chest
+        weight: 1
+      - path: Char_Player_Skeleton/ROOT/bodyParent/pelvis/spine/chest/clavicle_left
+        weight: 1
+      - path: Char_Player_Skeleton/ROOT/bodyParent/pelvis/spine/chest/clavicle_left/armUpper_left
+        weight: 1
+      - path: Char_Player_Skeleton/ROOT/bodyParent/pelvis/spine/chest/clavicle_left/armUpper_left/armLower_left
+        weight: 1
+      - path: Char_Player_Skeleton/ROOT/bodyParent/pelvis/spine/chest/clavicle_left/armUpper_left/armLower_left/hand_left
+        weight: 1
+      - path: Char_Player_Skeleton/ROOT/bodyParent/pelvis/spine/chest/clavicle_left/armUpper_left/armLower_left/hand_left/hand_left_end
+        weight: 1
+      - path: Char_Player_Skeleton/ROOT/bodyParent/pelvis/spine/chest/clavicle_right
+        weight: 1
+      - path: Char_Player_Skeleton/ROOT/bodyParent/pelvis/spine/chest/clavicle_right/armUpper_right
+        weight: 1
+      - path: Char_Player_Skeleton/ROOT/bodyParent/pelvis/spine/chest/clavicle_right/armUpper_right/armLower_right
+        weight: 1
+      - path: Char_Player_Skeleton/ROOT/bodyParent/pelvis/spine/chest/clavicle_right/armUpper_right/armLower_right/hand_right
+        weight: 1
+      - path: Char_Player_Skeleton/ROOT/bodyParent/pelvis/spine/chest/clavicle_right/armUpper_right/armLower_right/hand_right/hand_right_end
+        weight: 1
+      - path: Char_Player_Skeleton/ROOT/bodyParent/pelvis/spine/chest/neck
+        weight: 1
+      - path: Char_Player_Skeleton/ROOT/bodyParent/pelvis/spine/chest/neck/head
+        weight: 1
+      - path: Char_Player_Skeleton/ROOT/bodyParent/pelvis/spine/chest/neck/head/head_end
+        weight: 1
+      - path: Char_Player_Skeleton/ROOT/bodyParent/pelvis/tail1
+        weight: 1
+      - path: Char_Player_Skeleton/ROOT/bodyParent/pelvis/tail1/tail2
+        weight: 1
+      - path: Char_Player_Skeleton/ROOT/bodyParent/pelvis/tail1/tail2/tail3
+        weight: 1
+      - path: Char_Player_Skeleton/ROOT/bodyParent/pelvis/tail1/tail2/tail3/tail4
+        weight: 1
+      - path: Char_Player_Skeleton/ROOT/bodyParent/pelvis/tail1/tail2/tail3/tail4/tail4_end
+        weight: 1
+      - path: Char_Player_Skeleton/ROOT/bodyParent/pelvis/thigh_left
+        weight: 1
+      - path: Char_Player_Skeleton/ROOT/bodyParent/pelvis/thigh_left/shin_left
+        weight: 1
+      - path: Char_Player_Skeleton/ROOT/bodyParent/pelvis/thigh_left/shin_left/foot_left
+        weight: 1
+      - path: Char_Player_Skeleton/ROOT/bodyParent/pelvis/thigh_left/shin_left/foot_left/foot_left_end
+        weight: 1
+      - path: Char_Player_Skeleton/ROOT/bodyParent/pelvis/thigh_right
+        weight: 1
+      - path: Char_Player_Skeleton/ROOT/bodyParent/pelvis/thigh_right/shin_right
+        weight: 1
+      - path: Char_Player_Skeleton/ROOT/bodyParent/pelvis/thigh_right/shin_right/foot_right
+        weight: 1
+      - path: Char_Player_Skeleton/ROOT/bodyParent/pelvis/thigh_right/shin_right/foot_right/foot_right_end
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

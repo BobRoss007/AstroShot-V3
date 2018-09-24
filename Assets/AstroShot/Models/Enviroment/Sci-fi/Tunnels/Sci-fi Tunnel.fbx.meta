@@ -1,0 +1,176 @@
+fileFormatVersion: 2
+guid: fbff65b877c63004c9116f257d66660a
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: Scifi_Tunnel_Floor
+    100004: Scifi_Tunnel_Walls
+    100006: Scifi_Tunnel_CeilingLight
+    100008: Scifi_Tunnel_JuncX_Floor
+    100010: Scifi_Tunnel_JuncX_Walls
+    100012: Scifi_Tunnel_WallTubes
+    100014: Scifi_Tunnel_CeilingLight_COL
+    100016: Scifi_Tunnel_Floor_COL
+    100018: Scifi_Tunnel_JuncX_Floor_COL
+    100020: Scifi_Tunnel_JuncX_Walls_COL
+    100022: Scifi_Tunnel_Walls_COL
+    100024: Scifi_Tunnel_WallTubes_COL
+    400000: //RootNode
+    400002: Scifi_Tunnel_Floor
+    400004: Scifi_Tunnel_Walls
+    400006: Scifi_Tunnel_CeilingLight
+    400008: Scifi_Tunnel_JuncX_Floor
+    400010: Scifi_Tunnel_JuncX_Walls
+    400012: Scifi_Tunnel_WallTubes
+    400014: Scifi_Tunnel_CeilingLight_COL
+    400016: Scifi_Tunnel_Floor_COL
+    400018: Scifi_Tunnel_JuncX_Floor_COL
+    400020: Scifi_Tunnel_JuncX_Walls_COL
+    400022: Scifi_Tunnel_Walls_COL
+    400024: Scifi_Tunnel_WallTubes_COL
+    2100000: No Name
+    2100002: Wall
+    2100004: Lights
+    2100006: Metal
+    2100008: Rubber
+    2100010: COL
+    2300000: Scifi_Tunnel_Floor
+    2300002: Scifi_Tunnel_Walls
+    2300004: Scifi_Tunnel_CeilingLight
+    2300006: Scifi_Tunnel_JuncX_Floor
+    2300008: Scifi_Tunnel_JuncX_Walls
+    2300010: Scifi_Tunnel_WallTubes
+    2300012: Scifi_Tunnel_CeilingLight_COL
+    2300014: Scifi_Tunnel_Floor_COL
+    2300016: Scifi_Tunnel_JuncX_Floor_COL
+    2300018: Scifi_Tunnel_JuncX_Walls_COL
+    2300020: Scifi_Tunnel_Walls_COL
+    2300022: Scifi_Tunnel_WallTubes_COL
+    3300000: Scifi_Tunnel_Floor
+    3300002: Scifi_Tunnel_Walls
+    3300004: Scifi_Tunnel_CeilingLight
+    3300006: Scifi_Tunnel_JuncX_Floor
+    3300008: Scifi_Tunnel_JuncX_Walls
+    3300010: Scifi_Tunnel_WallTubes
+    3300012: Scifi_Tunnel_CeilingLight_COL
+    3300014: Scifi_Tunnel_Floor_COL
+    3300016: Scifi_Tunnel_JuncX_Floor_COL
+    3300018: Scifi_Tunnel_JuncX_Walls_COL
+    3300020: Scifi_Tunnel_Walls_COL
+    3300022: Scifi_Tunnel_WallTubes_COL
+    4300000: Scifi_Tunnel_Floor
+    4300002: Scifi_Tunnel_Walls
+    4300004: Scifi_Tunnel_CeilingLight
+    4300006: Scifi_Tunnel_WallTubes
+    4300008: Scifi_Tunnel_JuncX_Walls
+    4300010: Scifi_Tunnel_JuncX_Floor
+    4300012: Scifi_Tunnel_WallTubes_COL
+    4300014: Scifi_Tunnel_JuncX_Walls_COL
+    4300016: Scifi_Tunnel_JuncX_Floor_COL
+    4300018: Scifi_Tunnel_CeilingLight_COL
+    4300020: Scifi_Tunnel_Floor_COL
+    4300022: Scifi_Tunnel_Walls_COL
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Lights
+    second: {fileID: 2100000, guid: 365071cf03b266b4a9dbc5a433e405bf, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Metal
+    second: {fileID: 2100000, guid: d08e23ff42c6fac498a4464d4547c120, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: No Name
+    second: {fileID: 2100000, guid: eef923821ccf1cd41b21546c59e2eb02, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Wall
+    second: {fileID: 2100000, guid: 9745af33e935454479057689abf47eba, type: 2}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 1
+    hasPreviousCalculatedGlobalScale: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

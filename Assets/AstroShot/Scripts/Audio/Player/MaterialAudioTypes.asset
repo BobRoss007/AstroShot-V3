@@ -1,0 +1,78 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 46e8cb1d2cc8cef499b7b9c675ba7cee, type: 3}
+  m_Name: MaterialAudioTypes
+  m_EditorClassIdentifier: 
+  MaterialAudioTypes:
+  - name: Default Surface
+    physicsMaterial: {fileID: 0}
+    walkSamples:
+    - {fileID: 8300000, guid: dddb00cb744e56e41955f87b24190613, type: 3}
+    - {fileID: 8300000, guid: 0672b4b189a237e4a85b5e6a3813f27b, type: 3}
+    - {fileID: 8300000, guid: aadf9704b1354ff48bfa8d5b77e42a23, type: 3}
+    runSamples:
+    - {fileID: 8300000, guid: 48da0808a4d0c8e48a85b9f2b7f0a590, type: 3}
+    - {fileID: 8300000, guid: 91b7a4c302ceee640842a9a7eb60ee74, type: 3}
+    - {fileID: 8300000, guid: 4ca496b5c2bd58b4890e6b55936ca5e1, type: 3}
+    - {fileID: 8300000, guid: 8548074b83d20074d94b475be0c48e25, type: 3}
+  - name: Concrete
+    physicsMaterial: {fileID: 13400000, guid: 4b9490530984d99419a5ff55051565d2, type: 2}
+    walkSamples:
+    - {fileID: 8300000, guid: dddb00cb744e56e41955f87b24190613, type: 3}
+    - {fileID: 8300000, guid: 0672b4b189a237e4a85b5e6a3813f27b, type: 3}
+    - {fileID: 8300000, guid: aadf9704b1354ff48bfa8d5b77e42a23, type: 3}
+    runSamples:
+    - {fileID: 8300000, guid: 48da0808a4d0c8e48a85b9f2b7f0a590, type: 3}
+    - {fileID: 8300000, guid: 91b7a4c302ceee640842a9a7eb60ee74, type: 3}
+    - {fileID: 8300000, guid: 4ca496b5c2bd58b4890e6b55936ca5e1, type: 3}
+    - {fileID: 8300000, guid: 8548074b83d20074d94b475be0c48e25, type: 3}
+  - name: Dirt
+    physicsMaterial: {fileID: 13400000, guid: 9657b2d2060ddd946bd400f6482d96f5, type: 2}
+    walkSamples:
+    - {fileID: 8300000, guid: 36495dfc293ffd74a92614a701be2e94, type: 3}
+    - {fileID: 8300000, guid: 86d037c7dbc9aae45a1e5d0dae2b123b, type: 3}
+    - {fileID: 8300000, guid: 92ab61bfe3d10de478feb0b682a4379e, type: 3}
+    - {fileID: 8300000, guid: 9b699face5084f549bbfc3ab9cb13831, type: 3}
+    runSamples:
+    - {fileID: 8300000, guid: 9756ad06d56c60645abb88b782772193, type: 3}
+    - {fileID: 8300000, guid: bd7deae939b8cef43bfd213a2648e325, type: 3}
+    - {fileID: 8300000, guid: e4cb005a66ddec143aa3fd060307692b, type: 3}
+  - name: Grass
+    physicsMaterial: {fileID: 13400000, guid: c7035c66ddc0d9944846497d88a22388, type: 2}
+    walkSamples:
+    - {fileID: 8300000, guid: 6eaa27c8a810cd347b419641716c341e, type: 3}
+    - {fileID: 8300000, guid: 08baab44563756b41b860ac39389db9a, type: 3}
+    - {fileID: 8300000, guid: 9948f38877cea714abd261be837e5392, type: 3}
+    - {fileID: 8300000, guid: 2599438b0057fbf41ba8f4f9c465842a, type: 3}
+    - {fileID: 8300000, guid: aeccd7b6a3a0d334db0d7f95e86f6011, type: 3}
+    runSamples:
+    - {fileID: 8300000, guid: a46cf16af6c283d4e9e480f04ff09e59, type: 3}
+    - {fileID: 8300000, guid: f2f14d3a6ff67054088a388f609498f6, type: 3}
+    - {fileID: 8300000, guid: 85200d5dea98ceb44bdafe3324196b7a, type: 3}
+    - {fileID: 8300000, guid: 3a292991f41045548a53d0376dffd521, type: 3}
+    - {fileID: 8300000, guid: 53be8ccf8137067428a8b33e600d2f2c, type: 3}
+  - name: Metal
+    physicsMaterial: {fileID: 13400000, guid: 7243b2484504c784e8f0a2c6efac4761, type: 2}
+    walkSamples:
+    - {fileID: 8300000, guid: dbef099556277364da9cd9e1424d2399, type: 3}
+    - {fileID: 8300000, guid: bfbd4a1a8d0b99e4d9dcefc3b2274364, type: 3}
+    - {fileID: 8300000, guid: 51dc6b83267a19343bc52c759d149c53, type: 3}
+    - {fileID: 8300000, guid: 33a031335d06feb4ab39f64ee3b423f7, type: 3}
+    runSamples:
+    - {fileID: 8300000, guid: 4de4121a4f9a6dc4da4a26b6982df456, type: 3}
+    - {fileID: 8300000, guid: 1c59c0f8a77117545aa7687f5852d06d, type: 3}
+    - {fileID: 8300000, guid: 96579bea2d913774ebf80b79f61863ee, type: 3}
+    - {fileID: 8300000, guid: 7ebbb671fec601840baaa671f61f81a9, type: 3}
+    - {fileID: 8300000, guid: d895fbfdccb0ab441b513441ea5ef0e1, type: 3}
+  - name: Wood (No sounds yet)
+    physicsMaterial: {fileID: 13400000, guid: 63b2c8cfbffc8294ca0dd2116269325d, type: 2}
+    walkSamples: []
+    runSamples: []
