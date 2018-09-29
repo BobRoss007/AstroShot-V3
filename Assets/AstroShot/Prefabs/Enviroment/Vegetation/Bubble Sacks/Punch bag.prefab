@@ -37,6 +37,7 @@ GameObject:
   - component: {fileID: 54622722290620352}
   - component: {fileID: 153305715332567570}
   - component: {fileID: 135518755883429276}
+  - component: {fileID: 114958982246071944}
   m_Layer: 0
   m_Name: Body
   m_TagString: Untagged
@@ -114,6 +115,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4436715625046298}
   - component: {fileID: 95121699763598782}
+  - component: {fileID: 114692633425110810}
   m_Layer: 0
   m_Name: Punch bag
   m_TagString: Untagged
@@ -251,6 +253,40 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!114 &114692633425110810
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1883001179647632}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 11de88bb9bff4604f98947fbd1d7af9a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _healthInfo:
+    _currentValue: 10
+    _maximumValue: 10
+    _invincible: 0
+    _incurable: 0
+    _lastHealthState: 0
+  _healDelay: 2
+  _healSpeed: 1
+  _punchingBagRenderer: {fileID: 137946543509781074}
+  _fullHealthColor: {r: 0.34970725, g: 0.4716981, b: 0, a: 1}
+  _noHealthColor: {r: 1, g: 0, b: 0, a: 1}
+--- !u!114 &114958982246071944
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1113156186957622}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ffc85c068feda3b498110d3fdbc18957, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _punchingBagComponent: {fileID: 114692633425110810}
 --- !u!135 &135518755883429276
 SphereCollider:
   m_ObjectHideFlags: 1

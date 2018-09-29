@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/AstroShot/Scenes/Style Test/Style Test Outside.unity
+- path: Assets/AstroShot/Scenes/Health Test.unity
   isLoaded: 1
   isActive: 1
